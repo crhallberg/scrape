@@ -1,0 +1,610 @@
+Project: BRIEF 2008 Election Overview
+Location: C:\Users\Brett\Documents\Scratch Projects\BRIEF 2008 Election Overview.sb
+Author: batzerk
+Scratch: 1.2.1 (6-Dec-07)
+Notes:
+    A sample project demonstrating one of the many ways to tell a story in Scratch.
+    
+    It's REALLY simple. Mouse over the candidates after selecting them for them to say something!
+    
+    NOTE: This project was mostly made as a template for other ways to tell a story or describe some things... so feel free to get any ideas from it!
+
+History:
+    2008-6-23 14:54:54	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:02:05	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:05:18	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:06:05	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:09:08	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:11:06	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:11:36	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:11:51	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:18:07	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:27:03	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:29:26	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:30:46	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:31:12	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:33:30	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:35:10	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:38:19	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:53:47	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:53:54	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:54:01	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:54:59	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:55:37	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:57:06	save	2008 Election Overview		Brett Taylor
+    2008-6-23 15:59:57	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:01:19	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:04:46	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:10:32	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:11:44	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:15:38	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:18:35	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:21:36	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:23:31	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:24:21	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:25:24	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:26:06	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:33:09	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:33:34	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:37:41	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:39:32	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:40:30	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:41:14	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:42:29	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:46:02	save	2008 Election Overview		Brett Taylor
+    2008-6-23 16:46:07	save	2008 Election Overview		Brett Taylor
+    2008-6-23 18:48:59	save	2008 Election Overview		
+    2008-6-23 18:51:38	save	2008 Election Overview		
+    2008-6-23 18:54:00	save	2008 Election Overview		
+    2008-6-23 18:55:52	save	2008 Election Overview		
+    2008-6-23 19:44:02	save	2008 Election Overview		
+    2008-6-23 19:45:55	save	2008 Election Overview		
+    2008-6-23 19:48:02	save	2008 Election Overview 2		Brett Taylor
+    2008-6-23 19:51:46	save	2008 Election Overview 2		Brett Taylor
+    2008-6-23 19:52:03	save	2008 Election Overview 2		Brett Taylor
+    2008-6-23 19:54:13	save	2008 Election Overview 2		Brett Taylor
+    2008-6-23 19:58:33	save	2008 Election Overview 2		Brett Taylor
+    2008-6-25 12:47:19	save	2008 Election Overview 2		
+    2008-6-25 12:53:22	save	2008 Election Overview 2		
+    2008-6-25 12:58:49	save	2008 Election Overview 3		Brett Taylor
+    2008-6-25 13:06:01	save	2008 Election Overview 3		Brett Taylor
+    2008-6-25 13:07:36	save	2008 Election Overview 3		Brett Taylor
+    2008-6-25 13:12:21	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:15:27	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:17:57	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:18:52	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:28:24	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:30:34	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:35:50	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:35:56	save	2008 Election Overview 4		Brett Taylor
+    2008-6-25 13:38:40	share	BRIEF 2008 Election Overview	batzerk	Brett Taylor
+
+Totals: 
+    Sprites: 9
+    Stacks: 44
+    Unique costumes: 21
+    Unique sounds: 10
+--------
+Sprite: Stage
+  Costumes (1):
+    background1 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  No stacks.
+--------
+Sprite: "brief!"
+  Costumes (2):
+    costume1 (84x61)
+    costume2 (94x94)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked
+        go to x: -240 y: 130
+        point in direction 80
+        clear graphic effects
+        set size to 100%
+        go to front
+        wait 1 secs
+        show
+        glide 0.5 secs to x: -87 y: 135
+    end
+
+    when I receive "The Three Senators"
+        glide 0.5 secs to x: -240 y: 130
+        hide
+    end
+--------
+Sprite: Hillary
+  Costumes (2):
+    Hands Pointing (331x325)
+    Salute (290x295)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (7):
+    when I receive "Hillary Comeback?..."
+        switch to costume "Hands Pointing"
+        say "Just you wait until 2012!"
+        wait 1 secs
+        wait until (key "space" pressed?)
+        say ""
+    end
+
+    when green flag clicked
+        hide
+    end
+
+    when I receive "The Three Senators"
+        hide
+        switch to costume "Salute"
+        set size to 52%
+        go to x: 144 y: 252
+        if ((Seen Intro Yet?) = 0) else 
+            wait 1.8 secs
+            show
+            glide 0.5 secs to x: 144 y: 80
+        else
+            wait 0.4 secs
+            show
+            glide 0.1 secs to x: 144 y: 80
+    end
+
+    when I receive "Click a Candidate"
+        set "candidate clicked" to 0
+        switch to costume "Salute"
+        clear graphic effects
+        show
+        repeat until (not ((candidate clicked) = 0))  
+            if ((mouse down?) and (touching s[mouse-pointer]?)) 
+                set "candidate clicked" to 3
+                play drum 81 for 0.2 beats
+                broadcast "Pick Hillary"
+            if (touching s[mouse-pointer]?) else 
+                set "ghost" effect to 20
+            else
+                set "ghost" effect to 0
+    end
+
+    when I receive "Pick John"
+        repeat 20  
+            change "ghost" effect by 5
+            wait 0.001 secs
+        hide
+    end
+
+    when I receive "Pick Barack"
+        repeat 20  
+            change "ghost" effect by 5
+            wait 0.001 secs
+        hide
+    end
+
+    when I receive "Pick Hillary"
+        clear graphic effects
+        wait 0.5 secs
+        glide 1 secs to x: -150 y: 80
+        repeat until (key "space" pressed?)  
+            if (touching s[mouse-pointer]?) else 
+                say "I'm the right man for the job!"
+            else
+                say ""
+        say ""
+    end
+--------
+Sprite: "An Overview..."
+  Costumes (4):
+    "An Overview (452x191)
+    McCain Description (466x151)
+    Obama Description (479x187)
+    Clinton Description (481x187)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "Pick Hillary"
+        hide
+        go to x: 2 y: -116
+        switch to costume "Clinton Description"
+        set "ghost" effect to 100
+        wait 1 secs
+        show
+        repeat 20  
+            change "ghost" effect by -5
+    end
+
+    when I receive "Pick Barack"
+        hide
+        go to x: 2 y: -116
+        switch to costume "Obama Description"
+        set "ghost" effect to 100
+        wait 1 secs
+        show
+        repeat 20  
+            change "ghost" effect by -5
+    end
+
+    when green flag clicked
+        hide
+        set "Seen Intro Yet?" to 0
+        clear graphic effects
+        set "ghost" effect to 100
+        go to x: 227 y: 3
+        switch to costume ""An Overview"
+        set size to 70%
+        wait 0.2 secs
+        show
+        repeat 20  
+            change size by 1.5
+            change "ghost" effect by -5
+    end
+
+    when I receive "The Three Senators"
+        if ((Seen Intro Yet?) = 0) else 
+            repeat 20  
+                change x by -30
+        else
+            repeat 5  
+                change x by -100
+        hide
+        wait until ((key "space" pressed?) and (not ((candidate clicked) = 0)))
+        if ((candidate clicked) = 3) 
+            wait 1 secs
+            wait until (key "space" pressed?)
+        broadcast "The Three Senators"
+    end
+
+    when I receive "Pick John"
+        hide
+        go to x: 2 y: -116
+        switch to costume "McCain Description"
+        set "ghost" effect to 100
+        wait 1 secs
+        show
+        repeat 20  
+            change "ghost" effect by -5
+    end
+--------
+Sprite: "press spacebar..."
+  Costumes (3):
+    "press spacebar" (236x29)
+    "click on one" (169x29)
+    "press spacebar"2 (160x22)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (3):
+    when I receive "Click a Candidate"
+        wait 0.2 secs
+        wait until (not ((candidate clicked) = 0))
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+        wait 1 secs
+        switch to costume ""press spacebar"2"
+        go to x: -112 y: 164
+        show
+        repeat 20  
+            change "ghost" effect by -3
+    end
+
+    when green flag clicked
+        hide
+        go to x: 0 y: -160
+        set size to 90%
+        clear graphic effects
+        set "ghost" effect to 100
+        switch to costume ""press spacebar""
+        wait 2.5 secs
+        show
+        repeat 20  
+            change size by 0.5
+            change "ghost" effect by -3
+        wait until (key "space" pressed?)
+        broadcast "The Three Senators"
+        hide
+    end
+
+    when I receive "The Three Senators"
+        if ((Seen Intro Yet?) = 0) 
+            wait 5 secs
+        switch to costume ""click on one""
+        set x to 40
+        show
+        broadcast "Click a Candidate"
+    end
+--------
+Sprite: Barack
+  Costumes (2):
+    Pointing (246x354)
+    Arms Folded (245x317)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when green flag clicked
+        hide
+    end
+
+    when I receive "The Three Senators"
+        say ""
+        hide
+        switch to costume "Arms Folded"
+        set size to 50%
+        go to x: 10 y: 252
+        if ((Seen Intro Yet?) = 0) else 
+            wait 1.4 secs
+            show
+            glide 0.5 secs to x: 10 y: 80
+        else
+            wait 0.2 secs
+            show
+            glide 0.1 secs to x: 10 y: 80
+    end
+
+    when I receive "Click a Candidate"
+        set "candidate clicked" to 0
+        clear graphic effects
+        show
+        repeat until (not ((candidate clicked) = 0))  
+            if ((mouse down?) and (touching s[ ]?)) 
+                set "candidate clicked" to 2
+                play drum 81 for 0.2 beats
+                broadcast "Pick Barack"
+            if (touching s[ ]?) else 
+                set "ghost" effect to 20
+            else
+                set "ghost" effect to 0
+    end
+
+    when I receive "Pick John"
+        repeat 20  
+            change "ghost" effect by 5
+            wait 0.001 secs
+        hide
+    end
+
+    when I receive "Pick Barack"
+        switch to costume "Arms Folded"
+        clear graphic effects
+        wait 0.5 secs
+        glide 1 secs to x: -150 y: 80
+        repeat until (key "space" pressed?)  
+            if (touching s[ ]?) else 
+                say "I'ma Barack yo world!"
+            else
+                say ""
+        say ""
+    end
+
+    when I receive "Pick Hillary"
+        repeat 20  
+            change "ghost" effect by 5
+            wait 0.001 secs
+        hide
+        repeat until ((candidate clicked) = 0)  
+            if (key "space" pressed?) 
+                go to x: 52 y: 18
+                switch to costume "Pointing"
+                clear graphic effects
+                show
+                say "LOL"
+                broadcast "Hillary Comeback?..."
+                repeat until ((candidate clicked) = 0)  
+                    turn  5 degrees
+                    wait 0.2 secs
+                    turn  5 degrees
+                    wait 0.2 secs
+        point in direction 90
+    end
+--------
+Sprite: "John McCain"
+  Costumes (2):
+    "John McCain" (136x95)
+    "John McCain"2 (324x51)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "Pick Hillary"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+    end
+
+    when I receive "The Three Senators"
+        clear graphic effects
+        set size to 100%
+        switch to costume ""John McCain""
+        go to x: -144 y: -45
+        if ((Seen Intro Yet?) = 0) else 
+            wait 3 secs
+            show
+            play drum 79 for 0.2 beats
+        else
+            wait 0.2 secs
+            show
+            play drum 79 for 0.2 beats
+    end
+
+    when green flag clicked
+        hide
+    end
+
+    when I receive "Pick John"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+        switch to costume ""John McCain"2"
+        go to x: 60 y: 135
+        show
+        repeat 20  
+            change "ghost" effect by -5
+    end
+
+    when I receive "Pick Barack"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+    end
+--------
+Sprite: "Barack Obama"
+  Costumes (2):
+    "Barack Obama" (126x107)
+    "Barack Obama"2 (257x57)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "Pick Barack"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+        switch to costume ""Barack Obama"2"
+        go to x: 23 y: 124
+        show
+        repeat 20  
+            change "ghost" effect by -5
+    end
+
+    when I receive "Pick John"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+    end
+
+    when I receive "The Three Senators"
+        clear graphic effects
+        set size to 100%
+        switch to costume ""Barack Obama""
+        go to x: 6 y: -45
+        if ((Seen Intro Yet?) = 0) else 
+            wait 3.6 secs
+            show
+            play drum 79 for 0.2 beats
+        else
+            wait 0.3 secs
+            show
+            play drum 79 for 0.2 beats
+    end
+
+    when green flag clicked
+        hide
+    end
+
+    when I receive "Pick Hillary"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+    end
+--------
+Sprite: "Hillary Clinton"
+  Costumes (2):
+    "Hillary Clinton" (134x91)
+    "Hillary Clinton"2 (269x49)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "Pick Hillary"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+        switch to costume ""Hillary Clinton"2"
+        go to x: 187 y: 138
+        show
+        repeat 20  
+            change "ghost" effect by -5
+    end
+
+    when I receive "Pick Barack"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+    end
+
+    when I receive "Pick John"
+        repeat 20  
+            change "ghost" effect by 5
+        hide
+    end
+
+    when I receive "The Three Senators"
+        clear graphic effects
+        set size to 100%
+        switch to costume ""Hillary Clinton""
+        go to x: 80 y: -38
+        if ((Seen Intro Yet?) = 0) else 
+            wait 4.5 secs
+            show
+            play drum 78 for 0.2 beats
+        else
+            wait 0.4 secs
+            show
+            play drum 78 for 0.2 beats
+    end
+
+    when green flag clicked
+        hide
+    end
+--------
+Sprite: John
+  Costumes (1):
+    Standing (247x360)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when I receive "Pick Barack"
+        repeat 20  
+            change "ghost" effect by 5
+            wait 0.001 secs
+        hide
+    end
+
+    when green flag clicked
+        hide
+    end
+
+    when I receive "The Three Senators"
+        hide
+        switch to costume "Standing"
+        set size to 45%
+        go to x: -168 y: 252
+        if ((Seen Intro Yet?) = 0) else 
+            wait 1 secs
+            show
+            glide 0.5 secs to x: -168 y: 80
+            set "Seen Intro Yet?" to 1
+        else
+            show
+            glide 0.1 secs to x: -168 y: 80
+    end
+
+    when I receive "Click a Candidate"
+        set "candidate clicked" to 0
+        clear graphic effects
+        show
+        repeat until (not ((candidate clicked) = 0))  
+            if ((mouse down?) and (touching s[ ]?)) 
+                set "candidate clicked" to 1
+                play drum 81 for 0.2 beats
+                broadcast "Pick John"
+            if (touching s[ ]?) else 
+                set "ghost" effect to 20
+            else
+                set "ghost" effect to 0
+    end
+
+    when I receive "Pick Hillary"
+        repeat 20  
+            change "ghost" effect by 5
+            wait 0.001 secs
+        hide
+    end
+
+    when I receive "Pick John"
+        clear graphic effects
+        wait 0.5 secs
+        glide 1 secs to x: -150 y: 80
+        repeat until (key "space" pressed?)  
+            if (touching s[ ]?) else 
+                say "I'm John McCain. Not John McCan't."
+            else
+                say ""
+        say ""
+    end
+
+--------

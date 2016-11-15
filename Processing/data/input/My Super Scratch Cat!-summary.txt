@@ -1,0 +1,965 @@
+Project: My Super Scratch Cat!
+Location: C:\Users\Brett\Documents\Scratch Projects\My Super Scratch Cat!.sb
+Author: batzerk
+Scratch: 1.2 (2-Dec-07)
+Notes:
+    Customize your new Scratch cat! Have a ball! (Literally, too!)  =D  (Note: you may use the sprites featured in this project, but *please* give credit! Thank you!)
+
+History:
+    2008-7-27 20:54:08	save	Scratch Looks at Mouse		Brett Taylor
+    2008-7-27 20:55:03	save	Scratch Looks at Mouse		Brett Taylor
+    2008-7-27 21:00:50	save	Scratch Looks at Mouse		Brett Taylor
+    2008-7-27 21:00:59	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:12:55	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:14:13	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:14:29	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:15:17	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:16:35	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:20:39	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:21:35	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:28:15	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:29:42	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:31:15	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-27 21:32:50	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-28 02:43:47	save	Scratch Looks at Mouse1_2		Brett Taylor
+    2008-7-28 13:43:18	save	Scratch Looks at Mouse1_2		
+    2008-7-28 13:50:22	save	Scratch Looks at Mouse1_2		
+    2008-7-28 13:52:47	save	Scratch Looks at Mouse1_2		
+    2008-7-28 13:53:01	save	Scratch Looks at Mouse1_2		
+    2008-7-28 13:56:46	save	Scratch Looks at Mouse1_2		
+    2008-7-28 14:03:43	save	Scratch Looks at Mouse1_2		
+    2008-7-28 14:09:11	save	Scratch Looks at Mouse1_2		
+    2008-7-28 14:16:24	save	Scratch Looks at Mouse1_2		
+    2008-7-28 14:21:14	save	Scratch Looks at Mouse1_2		
+    2008-7-28 14:23:50	save	Scratch Looks at Mouse1_2		
+    2008-7-29 15:06:38	save	Scratch Looks at Mouse1_2		
+    2008-7-29 15:07:37	save	Scratch Looks at Mouse1_2		
+    2008-7-29 15:09:48	save	Scratch Looks at Mouse1_2		
+    2008-7-29 15:25:29	save	Scratch Looks at Mouse1_2		
+    2008-7-29 15:32:55	save	Scratch Looks at Mouse1_2		
+    2008-7-29 15:35:14	save	Scratch Looks at Mouse1_2		
+    2008-7-29 15:55:09	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 16:01:01	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 16:04:22	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 16:07:46	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 16:47:35	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 16:52:23	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 16:55:21	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:01:56	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:09:31	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:11:21	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:12:20	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:13:51	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:15:15	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:17:09	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:17:56	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:19:18	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:19:36	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:24:06	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:25:54	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:26:21	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:40:28	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:42:51	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:46:43	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:47:55	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:48:12	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:53:20	save	My Super Scratch Cat!		Brett Taylor
+    2008-7-29 17:57:34	save	My Super Scratch Cat!2		Brett Taylor
+    2008-7-29 18:05:59	save	My Super Scratch Cat!2		Brett Taylor
+    2008-7-29 18:09:47	save	My Super Scratch Cat!2		Brett Taylor
+    2008-7-29 18:12:36	save	My Super Scratch Cat!2		Brett Taylor
+    2008-7-29 18:15:08	save	My Super Scratch Cat!2		Brett Taylor
+    2008-7-29 18:16:19	save	My Super Scratch Cat!2		Brett Taylor
+    2008-7-29 23:05:03	save	My Super Scratch Cat!2		Brett Taylor
+    2008-7-29 23:05:31	save	My Super Scratch Cat!3		Brett Taylor
+    2008-8-15 13:37:27	save	My Super Scratch Cat!3		
+    2008-8-15 13:45:11	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 13:48:36	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 13:50:13	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 13:53:22	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:10:21	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:14:15	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:16:03	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:20:58	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:21:55	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:23:23	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:31:04	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:31:47	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:37:46	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:38:00	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:39:01	save	My Super Scratch Cat!4		Brett Taylor
+    2008-8-15 14:41:16	share	My Super Scratch Cat!	batzerk	Brett Taylor
+
+Totals: 
+    Sprites: 28
+    Stacks: 34
+    Unique costumes: 53
+    Unique sounds: 29
+--------
+Sprite: Stage
+  Costumes (1):
+    background1 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  No stacks.
+--------
+Sprite: Eyelids
+  Costumes (2):
+    Eyelids (150x79)
+    Blinking (150x79)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked
+        set "Double-blink" to 0
+        hide
+        go to x: 0 y: 0
+        point in direction 90
+        clear graphic effects
+        set size to 66%
+        switch to costume "Blinking"
+        wait 0.15 secs
+        go to front
+        forever  
+            hide
+            wait (pick random 0.5 to 7.0) secs
+            go to front
+            show
+            wait (pick random 0.05 to 0.12) secs
+            hide
+            set "Double-blink" to (pick random 0 to 3)
+            if ((Double-blink) = 0) 
+                wait (pick random 0.01 to 0.04) secs
+                show
+                wait (pick random 0.05 to 0.07) secs
+    end
+
+    when I receive "Blink"
+        repeat until (not (mouse down?))  
+            show
+        hide
+    end
+--------
+Sprite: Eyelid Expressions
+  Costumes (5):
+    Eyelids (145x79)
+    Happy (134x36)
+    Angry (103x32)
+    Sad (129x42)
+    Nervous (144x79)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        hide
+        go to x: 0 y: 0
+        point in direction 90
+        clear graphic effects
+        set size to 66%
+        switch to costume "Sympathetic"
+        set "Eyelid Expression" to 0
+        wait 0.1 secs
+        go to front
+        forever  
+            if ((Eyelid Expression) = 0) 
+                hide
+            if ((Eyelid Expression) = 1) 
+                show
+                switch to costume "Happy"
+            if ((Eyelid Expression) = 2) 
+                show
+                switch to costume "Sad"
+            if ((Eyelid Expression) = 3) 
+                show
+                switch to costume "Angry"
+            if ((Eyelid Expression) = 4) 
+                show
+                switch to costume "Nervous"
+    end
+--------
+Sprite: 'Eyelid Expressions'
+  Costumes (2):
+    Normal (151x66)
+    Rollover (151x66)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to front
+        go to x: -160 y: 150
+        point in direction 90
+        clear graphic effects
+        set size to 82%
+        show
+        set "Eyelid Expression Menu?" to 0
+        forever  
+            if (touching s[ ]?) else 
+                switch to costume "Rollover"
+                if ((touching s[ ]?) and (mouse down?)) 
+                    if ((Eyelid Expression Menu?) = 0) else 
+                        set "Eyelid Expression Menu?" to 1
+                    else
+                        set "Eyelid Expression Menu?" to 0
+                    wait until (not (mouse down?))
+            else
+                switch to costume "Normal"
+    end
+--------
+Sprite: 'Mouth Expressions'
+  Costumes (2):
+    Normal (151x66)
+    Rollover (151x66)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to front
+        go to x: 160 y: 150
+        point in direction 90
+        clear graphic effects
+        set size to 82%
+        show
+        set "Mouth Expression Menu?" to 0
+        forever  
+            if (touching s[ ]?) else 
+                switch to costume "Rollover"
+                if ((touching s[ ]?) and (mouse down?)) 
+                    if ((Mouth Expression Menu?) = 0) else 
+                        set "Mouth Expression Menu?" to 1
+                    else
+                        set "Mouth Expression Menu?" to 0
+                    wait until (not (mouse down?))
+            else
+                switch to costume "Normal"
+    end
+--------
+Sprite: Left Eye
+  Costumes (3):
+    Eye (15x15)
+    Eye2 (15x15)
+    Eye3 (15x15)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked
+        go to x: -11 y: 50
+        point in direction 90
+        clear graphic effects
+        go to front
+        set size to 66%
+        switch to costume "Eye"
+        show
+        forever  
+            if ((Yarn?) = 1) else 
+                point towards s[ ]
+            else
+                point towards s[ ]
+            set size to (Eye Size)%
+            if ((Eye Size) < 100) else 
+                switch to costume "Eye"
+            else
+                if ((Eye Size) < 140) else 
+                    switch to costume "Eye2"
+                else
+                    switch to costume "Eye3"
+    end
+
+    when I receive "Blink"
+        hide
+        wait until (not (mouse down?))
+        show
+    end
+--------
+Sprite: Right Eye
+  Costumes (3):
+    Eye (15x15)
+    Eye2 (15x15)
+    Eye3 (15x15)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked
+        go to x: 49 y: 59
+        point in direction 90
+        clear graphic effects
+        go to front
+        set size to 66%
+        switch to costume "Eye"
+        show
+        set "Eye Size" to 66
+        forever  
+            if ((Yarn?) = 1) else 
+                point towards s[ ]
+            else
+                point towards s[ ]
+            set size to (Eye Size)%
+            if ((Eye Size) < 100) else 
+                switch to costume "Eye"
+            else
+                if ((Eye Size) < 140) else 
+                    switch to costume "Eye2"
+                else
+                    switch to costume "Eye3"
+    end
+
+    when I receive "Blink"
+        hide
+        wait until (not (mouse down?))
+        show
+    end
+--------
+Sprite: Mouth
+  Costumes (11):
+    Bucky (73x44)
+    Dissatisfied (97x20)
+    Happy (93x55)
+    Little Tongue (81x49)
+    Lotta Tongue (85x80)
+    O (21x22)
+    Smile (52x8)
+    Smirk (77x24)
+    Surprised (84x48)
+    Toothy (120x56)
+    Troubled (87x24)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        set "Mouth Expression" to 2
+        go to x: 0 y: 0
+        point in direction 90
+        clear graphic effects
+        set size to 66%
+        switch to costume "Happy"
+        show
+        forever  
+            if ((Mouth Expression) = 0) 
+                switch to costume "Bucky"
+            if ((Mouth Expression) = 1) 
+                switch to costume "Dissatisfied"
+            if ((Mouth Expression) = 2) 
+                switch to costume "Happy"
+            if ((Mouth Expression) = 3) 
+                switch to costume "Little Tongue"
+            if ((Mouth Expression) = 4) 
+                switch to costume "Lotta Tongue"
+            if ((Mouth Expression) = 5) 
+                switch to costume "O"
+            if ((Mouth Expression) = 6) 
+                switch to costume "Smile"
+            if ((Mouth Expression) = 7) 
+                switch to costume "Smirk"
+            if ((Mouth Expression) = 8) 
+                switch to costume "Surprised"
+            if ((Mouth Expression) = 9) 
+                switch to costume "Toothy"
+            if ((Mouth Expression) = 10) 
+                switch to costume "Troubled"
+            if ((not (touching s[ ]?)) and (not (mouse down?))) 
+                go to x: 0 y: 0
+    end
+--------
+Sprite: Yarn String
+  Costumes (1):
+    costume1 (34x41)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        hide
+        pen up
+        clear
+        go to x: -160 y: -120
+        point in direction 90
+        clear graphic effects
+        set size to 40%
+        switch to costume "Blue Yarn"
+        set pen color to c[0082A1]
+        set pen shade to 40
+        set pen size to 5
+        forever  
+            if ((Yarn?) = 1) else 
+                go to front
+                go to s[ ]
+                clear
+                pen down
+                go to s[ ]
+                pen up
+            else
+                clear
+    end
+--------
+Sprite: Ball of Yarn
+  Costumes (1):
+    Blue Yarn (205x147)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when y key pressed
+        if ((Yarn?) = 1) else 
+            set "Yarn?" to 0
+        else
+            set "Yarn?" to 1
+    end
+
+    when green flag clicked
+        hide
+        go to x: -160 y: -120
+        point in direction 90
+        clear graphic effects
+        set size to 40%
+        switch to costume "Blue Yarn"
+        set "Yarn?" to 0
+        set "Elasticity" to 4
+        set "Friction" to 0.95
+        set "Gravity" to -2
+        set "xVel" to 0
+        set "yVel" to 0
+        forever  
+            if ((Yarn?) = 1) else 
+                go to front
+                show
+                repeat until (not ((Yarn?) = 1))  
+                    change "xVel" by (((((mouse x) - (x position)) * (distance to s[ ] )) / 10000) * (Elasticity))
+                    change "yVel" by (((((mouse y) - (y position)) * (distance to s[ ] )) / 10000) * (Elasticity))
+                    change "yVel" by (Gravity)
+                    set "x1" to (x position)
+                    set "y1" to (y position)
+                    change x by (xVel)
+                    change y by (yVel)
+                    set "xVel" to (((x position) - (x1)) * (Friction))
+                    set "yVel" to (((y position) - (y1)) * (Friction))
+            else
+                hide
+                set "xVel" to 0
+                set "yVel" to 0
+    end
+--------
+Sprite: Active Border (Mouth)
+  Costumes (2):
+    Border1 (148x38)
+    Border2 (148x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: -160 y: 140
+        point in direction 90
+        clear graphic effects
+        set "ghost" effect to 15
+        set size to 80%
+        switch to costume "Border2"
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                show
+                go to x: 160 y: (110 - ((Mouth Expression) * 27))
+            else
+                hide
+    end
+--------
+Sprite: Active Border (Eyelid)
+  Costumes (2):
+    Border1 (148x38)
+    Border2 (148x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: -160 y: 140
+        point in direction 90
+        clear graphic effects
+        set "ghost" effect to 15
+        set size to 80%
+        switch to costume "Border2"
+        forever  
+            if ((Eyelid Expression Menu?) = 1) else 
+                show
+                go to x: -160 y: (110 - ((Eyelid Expression) * 27))
+            else
+                hide
+    end
+--------
+Sprite: Nervous
+  Costumes (1):
+    Nervous (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: -160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Angry"
+        set size to 80%
+        show
+        forever  
+            if ((Eyelid Expression Menu?) = 1) else 
+                change y by ((0 - (y position)) / 5)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Eyelid Expression" to 4
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 3)
+    end
+--------
+Sprite: None
+  Costumes (1):
+    None (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: -160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "None"
+        set size to 80%
+        show
+        forever  
+            if ((Eyelid Expression Menu?) = 1) else 
+                change y by (round ((109 - (y position)) / 2))
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Eyelid Expression" to 0
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 3)
+    end
+--------
+Sprite: Sad
+  Costumes (1):
+    Sad (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: -160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Happy (eyelids)"
+        set size to 80%
+        show
+        forever  
+            if ((Eyelid Expression Menu?) = 1) else 
+                change y by ((54 - (y position)) / 4)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Eyelid Expression" to 2
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 4)
+    end
+--------
+Sprite: Happy (eyelids)
+  Costumes (1):
+    Happy (eyelids) (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: -160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Happy (eyelids)"
+        set size to 80%
+        show
+        forever  
+            if ((Eyelid Expression Menu?) = 1) else 
+                change y by ((81 - (y position)) / 3)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Eyelid Expression" to 1
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 3)
+    end
+--------
+Sprite: Angry
+  Costumes (1):
+    Angry (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked
+        go to x: -160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Angry"
+        set size to 80%
+        show
+        forever  
+            if ((Eyelid Expression Menu?) = 1) else 
+                change y by ((27 - (y position)) / 4)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Eyelid Expression" to 3
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 4)
+    end
+
+    round 0
+
+--------
+Sprite: Troubled
+  Costumes (1):
+    Troubled (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Troubled"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((-162 - (y position)) / 12)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 10
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 12)
+    end
+--------
+Sprite: Toothy
+  Costumes (1):
+    Toothy (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Toothy"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((-135 - (y position)) / 11)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 9
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 11)
+    end
+--------
+Sprite: Surprised
+  Costumes (1):
+    Surprised (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Surprised"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((-108 - (y position)) / 10)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 8
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 10)
+    end
+--------
+Sprite: Smirk
+  Costumes (1):
+    Smirk (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Smirk"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((-81 - (y position)) / 9)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 7
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 9)
+    end
+--------
+Sprite: Smile
+  Costumes (1):
+    Smile (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Smile"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((-54 - (y position)) / 9)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 6
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 9)
+    end
+--------
+Sprite: O
+  Costumes (1):
+    O (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "O"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((-27 - (y position)) / 8)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 5
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 8)
+    end
+--------
+Sprite: Lotta Tongue
+  Costumes (1):
+    Lotta Tongue (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Lotta Tongue"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((0 - (y position)) / 6)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 4
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 6)
+    end
+--------
+Sprite: Little Tongue
+  Costumes (1):
+    Little Tongue (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Little Tongue"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((27 - (y position)) / 5)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 3
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 5)
+    end
+--------
+Sprite: Happy
+  Costumes (1):
+    Happy (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Happy"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((54 - (y position)) / 4)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 2
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 4)
+    end
+--------
+Sprite: Dissatisfied
+  Costumes (1):
+    Dissatisfied (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Dissatisfied"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by ((81 - (y position)) / 3)
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 1
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 3)
+    end
+--------
+Sprite: Bucky
+  Costumes (1):
+    Bucky (145x33)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (1):
+    when green flag clicked
+        go to x: 160 y: 140
+        point in direction 90
+        clear graphic effects
+        switch to costume "Bucky"
+        set size to 80%
+        show
+        forever  
+            if ((Mouth Expression Menu?) = 1) else 
+                change y by (round ((109 - (y position)) / 2))
+                if (touching s[ ]?) else 
+                    set "color" effect to 0
+                    set "brightness" effect to 25
+                    if (mouse down?) 
+                        set "Mouth Expression" to 0
+                else
+                    set "color" effect to 0
+                    set "brightness" effect to 0
+            else
+                change y by ((140 - (y position)) / 2)
+    end
+--------
+Sprite: Scratch Cat
+  Costumes (2):
+    Cat (no eyes, no mouth) (327x357)
+    Original Cat (95x104)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when space key pressed
+        go back 10 layers
+        if ((costume #) = 1) else 
+            go to x: 3 y: 0
+            switch to costume "Original Cat"
+            set size to 230%
+        else
+            go to x: 0 y: 0
+            set size to 66%
+            switch to costume "Cat (no eyes, no mouth)"
+    end
+
+    when green flag clicked
+        go to x: 0 y: 0
+        point in direction 90
+        clear graphic effects
+        set size to 66%
+        switch to costume "Cat (no eyes, no mouth)"
+        go back 10 layers
+        show
+        forever  
+            if (((touching s[mouse-pointer]?) and (mouse down?)) and ((mouse y) > 20)) 
+                broadcast "Blink"
+    end
+
+--------

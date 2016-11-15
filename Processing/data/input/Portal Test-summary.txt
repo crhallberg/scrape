@@ -1,0 +1,253 @@
+Project: Portal Test
+Location: C:\Users\Brett\Documents\Scratch Projects\Portal Test.sb
+Author: batzerk
+Scratch: 1.4 of 30-Jun-09
+Notes:
+    Move with AWD. Click to shoot a portal. (...Yes, Portal came out a million years ago, but I never made a Scratch program from it, and I figured it was about time!)
+
+History:
+    2010-1-5 12:40:24	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:45:51	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:46:30	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:49:53	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:52:46	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:52:58	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:54:13	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:57:02	save	Portal Example1_1		Brett Taylor
+    2010-1-5 12:57:48	save	Portal Example1_1		Brett Taylor
+    2010-1-5 13:02:05	save	Portal Example1_1		Brett Taylor
+    2010-1-5 13:06:52	save	Portal Example1_1		Brett Taylor
+    2010-1-5 13:14:55	save	Portal Example1_1		Brett Taylor
+    2010-1-5 13:16:56	save	Portal Example1_1		Brett Taylor
+    2010-1-5 13:17:33	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:24:07	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:28:50	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:31:17	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:41:20	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:46:09	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:49:08	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:49:48	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:50:34	save	Portal Example1_2		Brett Taylor
+    2010-1-5 13:50:39	save	Portal Example1_3		Brett Taylor
+    2010-1-5 13:57:45	save	Portal Example1_3		Brett Taylor
+    2010-1-5 13:59:56	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:02:33	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:03:53	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:07:38	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:07:57	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:20:14	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:20:20	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:24:28	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:25:10	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:25:26	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:30:54	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:31:54	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:34:17	save	Portal Example1_3		Brett Taylor
+    2010-1-5 14:45:38	share	Portal Test	batzerk	Brett Taylor
+
+Totals: 
+    Sprites: 7
+    Stacks: 18
+    Unique costumes: 14
+    Unique sounds: 1
+--------
+Sprite: Stage
+  Costumes (2):
+    background1 (480x360)
+    background2 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  No stacks.
+--------
+Sprite: Handheld Portal Device
+  Costumes (1):
+    costume1 (43x20)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked
+        forever  
+            go to s[ ]
+            point towards s[ ]
+    end
+--------
+Sprite: Guy
+  Costumes (1):
+    Standing (29x69)
+  Sounds (0):
+  Stacks (9):
+    when green flag clicked
+        forever  
+            if (touching s[floor]?) else 
+                if ((key "w" pressed?) and ((yVel) < "0.5")) 
+                    change "yVel" by (jumpPower)
+                    set "onGround" to "0"
+                set "xVel" to ((xVel) * (groundFriction))
+                set "onGround" to "1"
+                if ((yVel) < "0") 
+                    set "yVel" to "0"
+            else
+                set "onGround" to "0"
+                change "yVel" by (gravity)
+            if ((xVel) > (maxXVel)) 
+                set "xVel" to (maxXVel)
+            if ((xVel) < (-1 * (maxXVel))) 
+                set "xVel" to (-1 * (maxXVel))
+            if (touching s[ceiling]?) 
+                set "yVel" to "0"
+                change y by -4
+    end
+
+    when green flag clicked
+        go to front
+        set "xVel" to "0"
+        set "yVel" to "0"
+        set "gravity" to "-0.4"
+        set "groundFriction" to "0.86"
+        set "jumpPower" to "6"
+        set "maxXVel" to "4"
+        set "movementSpeed" to "0.5"
+        point in direction 90
+        go to x: 66 y: -118
+        forever  
+            set "x1" to (x position)
+            set "y1" to (y position)
+            if (key "a" pressed?) 
+                change "xVel" by (-1 * (movementSpeed))
+            if (key "d" pressed?) 
+                change "xVel" by (1 * (movementSpeed))
+            change x by (xVel)
+            change y by (yVel)
+            set "xVel" to ((x position) - (x1))
+            set "yVel" to ((y position) - (y1))
+    end
+
+    when green flag clicked
+        forever  
+            if ((( "costume #" of s[Blue Portal] ) = "2") and (touching s[Blue Portal]?)) 
+                go to s[Orange Portal]
+                wait until (not (touching s[Orange Portal]?))
+            if ((( "costume #" of s[Orange Portal] ) = "2") and (touching s[Orange Portal]?)) 
+                go to s[Blue Portal]
+                wait until (not (touching s[Blue Portal]?))
+    end
+
+    (( "costume #" of s[Blue Portal] ) = "2") and false
+
+
+    (( "costume #" of s[Orange Portal] ) = "2") and false
+
+
+    (distance to s[Blue Portal] ) < "80"
+
+
+    (distance to s[Blue Portal] ) < "80"
+
+
+    (distance to s[Orange Portal] ) < "80"
+
+
+    (distance to s[Orange Portal] ) < "80"
+
+--------
+Sprite: Sprite1
+  Costumes (4):
+    costume1 (481x256)
+    costume2 (481x230)
+    costume3 (481x78)
+    costume4 (46x37)
+  Sounds (0):
+  No stacks.
+--------
+Sprite: floor
+  Costumes (1):
+    costume2 (481x230)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked
+        set "ghost" effect to 100
+        show
+        go to x: 0 y: 0
+        point in direction 90
+    end
+--------
+Sprite: ceiling
+  Costumes (1):
+    costume2 (481x78)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked
+        set "ghost" effect to 100
+        show
+        go to x: 0 y: 0
+        point in direction 90
+    end
+--------
+Sprite: Blue Portal
+  Costumes (2):
+    Blue portal shot (54x18)
+    Blue Portal (41x73)
+  Sounds (0):
+  Stacks (3):
+    when green flag clicked
+        set "justShotBluePortal" to "0"
+    end
+
+    when green flag clicked
+        forever  
+            if ((mouse down?) and ((justShotBluePortal) = "0")) 
+                hide
+                switch to costume "Blue portal shot"
+                set size to 100%
+                go to s[ ]
+                point in direction ( "direction" of s[ ] )
+                show
+                move 40 steps
+                repeat until (((touching s[ ]?) or (touching s[ ]?)) or (touching s[ ]?))  
+                    move 40 steps
+                point in direction 90
+                set size to 60%
+                switch to costume "Blue Portal"
+                repeat 2  
+                    change size by 20
+                set size to 100%
+                set "justShotBluePortal" to "1"
+            wait until (not (mouse down?))
+    end
+
+    hide
+--------
+Sprite: Orange Portal
+  Costumes (2):
+    Orange portal shot (56x18)
+    Orange Portal (41x73)
+  Sounds (0):
+  Stacks (3):
+    when green flag clicked
+        set "justShotBluePortal" to "0"
+    end
+
+    when green flag clicked
+        forever  
+            if ((mouse down?) and ((justShotBluePortal) = "1")) 
+                hide
+                switch to costume "Orange portal shot"
+                set size to 100%
+                go to s[ ]
+                point in direction ( "direction" of s[ ] )
+                show
+                move 40 steps
+                repeat until (((touching s[ ]?) or (touching s[ ]?)) or (touching s[ ]?))  
+                    move 40 steps
+                point in direction 90
+                set size to 60%
+                switch to costume "Orange Portal"
+                repeat 2  
+                    change size by 20
+                set size to 100%
+                set "justShotBluePortal" to "0"
+            wait until (not (mouse down?))
+    end
+
+    hide
+
+--------

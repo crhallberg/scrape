@@ -1,0 +1,67 @@
+Project: Bohr_Christian
+Location: C:\Users\Chris\Downloads\Scratch\Laura Fey\Bohr_Christian.sb
+Author:
+Scratch: 1.3 (release of 2-Sep-08)
+Notes:
+
+History:
+    2009-5-5 06:35:53	save	Bohr_Christian
+    2009-5-5 06:35:57	save	Bohr_Christian
+    2009-5-22 03:06:56	save	Bohr_Christian
+    2009-5-22 03:08:23	save	Bohr_Christian
+    2009-5-22 03:12:39	save	Bohr_Christian
+    2009-5-22 03:22:09	save	Bohr_Christian
+    2009-5-22 03:22:32	save	Bohr_Christian
+    2009-5-22 22:19:54	save	Bohr_Christian
+    2009-5-25 07:46:13	save	Bohr_Christian
+
+Totals:
+    Sprites: 4
+    Stacks: 12
+    Unique costumes: 6
+    Unique sounds: 2
+--------
+Sprite: Stage
+  Costumes (2):
+    background1 (480x360)
+    pathway (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  No stacks.
+--------
+Sprite: Sprite1
+  Costumes (1):
+    images (48x99)
+  Sounds (1):
+    meow (0:00:01)
+  Stacks (8):
+    when green flag clicked        set "score" to "0"    end
+    when right arrow key pressed        point in direction 90        move 20 steps    end
+    when down arrow key pressed        point in direction 180        move 20 steps    end
+    when left arrow key pressed        point in direction -90        move 20 steps    end
+    when up arrow key pressed        point in direction 0        move 20 steps    end
+    when up arrow key pressed        forever              if (touching s[Sprite3]?)                 change "score" by -1                go to x: -205 y: -160            if (touching s[Sprite2]?)                 change "score" by 3                go to x: -205 y: -160    end
+    when green flag clicked        reset timer        go to x: -205 y: -160    end
+    timer
+--------
+Sprite: Sprite4
+  Costumes (1):
+    knight1 (311x360)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              hide            wait 20 secs            show            wait 10 secs            hide    end--------
+Sprite: Sprite3
+  Costumes (1):
+    dragon1-b (49x31)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        forever              turn  13 degrees            move 10 steps            move 10 steps            move 10 steps            move 10 steps            if (touching s[ ]?)                 wait 5 secs                go to x: 235 y: -11    end--------
+Sprite: Sprite2
+  Costumes (1):
+    grasshopper1 (24x17)
+  Sounds (0):
+  Stacks (2):
+    when up arrow key pressed        if (touching s[ ]?)             go to x: 179 y: 120            wait 10 secs            go to x: 54 y: -33    end
+    when green flag clicked        wait 1 secs        go to x: -205 y: -160        wait 5 secs        go to x: 54 y: -33        forever              turn  15 degrees    end
+--------
+

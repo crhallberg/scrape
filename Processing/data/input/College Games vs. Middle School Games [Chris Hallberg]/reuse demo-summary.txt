@@ -1,0 +1,151 @@
+Project: reuse demo
+Author:
+Scratch: 1.3 (release candidate of 25-Aug-08)
+Notes:
+
+History:
+    2008-12-1 21:49:17	save	reuse demo
+    2008-12-1 21:53:04	save	reuse demo
+    2008-12-1 22:07:53	save	reuse demo
+    2008-12-1 22:11:49	save	reuse demo
+    2008-12-1 22:41:57	save	reuse demo
+    2008-12-1 23:39:36	save	reuse demo
+    2008-12-2 00:02:56	save	reuse demo
+    2008-12-2 00:19:47	save	reuse demo
+    2008-12-2 00:37:11	save	reuse demo
+    2008-12-2 00:37:44	save	reuse demo
+
+Totals:
+    Sprites: 13
+    Stacks: 34
+    Unique costumes: 31
+    Unique sounds: 5
+--------
+Sprite: Stage
+  Costumes (2):
+    background1 (480x360)
+    background3 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        switch to background "background1"        set "TOOL" to "0"        set "word-drill" to "drill"        set "word-needle" to "needle"        set "word-spray" to "spray"        set "word-tape" to "tape"        set "STEP" to "0"    end
+    when I receive "lights"        next background    end--------
+Sprite: Sprite7
+  Costumes (1):
+    costume1 (219x74)
+  Sounds (0):
+  Stacks (2):
+    when I receive "finale!"        say "Mission Accomplished! Lift the tape to expose the film (four minutes when sunny, 15 inside). Have your Photography Major friend develop the film for you and enjoy!"        point in direction 90        go to x: 25 y: 22        turn  10 degrees        show        repeat until (( "background #" of s[ ] ) = 2)              broadcast "lights"    end
+    when green flag clicked        clear        hide        set pen color to c[FF0000]        set pen size to 5        pen up    end--------
+Sprite: mouse
+  Costumes (6):
+    costume1 (3x3)
+    drillPointer (29x19)
+    needle (21x21)
+    spray (11x27)
+    spray2 (23x33)
+    tape (31x14)
+  Sounds (4):
+    FingerSnap (0:00:00)
+    DirtyWhir (0:00:01)
+    Rattle (0:00:01)
+    BalloonScratch (0:00:04)
+  Stacks (1):
+    when green flag clicked        set volume to 25%        switch to costume "costume1"        switch to costume "costume1"        forever              go to s[ ]            go to front            if ((TOOL) = (word-drill))                 switch to costume "drillPointer"                if (mouse down?)                     play sound "DirtyWhir"            if ((TOOL) = (word-needle))                 switch to costume "needle"                if (mouse down?)                     play sound "FingerSnap" until done            if ((TOOL) = (word-spray))                 switch to costume "spray"                if (mouse down?)                     switch to costume "spray2"                    play sound "Rattle"            if ((TOOL) = (word-tape))                 switch to costume "tape"                if (mouse down?)                     play sound "BalloonScratch"                    wait until (not (mouse down?))                    stop all sounds            if ((TOOL) = 0)                 switch to costume "costume1"    end--------
+Sprite: Sprite4
+  Costumes (4):
+    costume1 (19x19)
+    costume2 (21x21)
+    costume3 (24x24)
+    costume4 (21x21)
+  Sounds (0):
+  Stacks (2):
+    when green flag clicked        hide    end
+    when I receive "target"        go to x: (targetX) y: (targetY)        go to front        switch to costume "costume1"        show        repeat until (((TOOL) = (targetTool)) and ((mouse down?) and ((distance to s[ ] ) < 25)))              wait 0.5 secs            next costume        change "STEP" by 1        hide    end--------
+Sprite: Sprite5
+  Costumes (2):
+    costume1 (86x75)
+    costume2 (86x75)
+  Sounds (0):
+  Stacks (5):
+    when I receive "follow"        repeat until ((mouse down?) and ((((x position) < 50) and ((x position) > 30)) and (((y position) > -80) and ((y position) < -60))))              go to s[mouse-pointer]    end
+    when I receive "scrap"        set size to 100%        switch to costume "costume1"        show        say "Cut a piece of thin metal off of a pie tin, soda can, or something similar and poke a small hole in it with a sewing needle Make sure the hole is as round as possible."        set "targetX" to "40"        set "targetY" to "-25"        set "targetTool" to "needle"        broadcast "target" and wait        say ""        switch to costume "costume2"        wait 2 secs        repeat 10              change size by -6        go to front    end
+    when green flag clicked        go to x: 40 y: -25        hide    end
+    when I receive "showScrap"        show    end
+    when I receive "hideScrap"        hide    end--------
+Sprite: Sprite6
+  Costumes (1):
+    costume1 (132x37)
+  Sounds (0):
+  Stacks (3):
+    when green flag clicked        go to x: 50 y: -10        hide    end
+    when I receive "tape"        show    end
+    when I receive "notape"        hide    end--------
+Sprite: film
+  Costumes (2):
+    film (191x139)
+    film2 (185x91)
+  Sounds (0):
+  Stacks (2):
+    when green flag clicked        switch to costume "film"        hide    end
+    when I receive "film"        show        say "CAREFULLY tape a piece of film to the inside top of the Altoids tin. NEVER EXPOSE THE FILM TO LIGHT!"        repeat until ((mouse down?) and ((((x position) < 45) and ((x position) > 35)) and (((y position) > 60) and ((y position) < 70))))              go to s[ ]        switch to costume "film2"        wait 2 secs        hide    end--------
+Sprite: Sprite3
+  Costumes (1):
+    costume1 (96x37)
+  Sounds (0):
+  Stacks (2):
+    when green flag clicked        show    end
+    when Sprite3 clicked        hide        change "STEP" by 1    end--------
+Sprite: Sprite2
+  Costumes (2):
+    lights-out (48x50)
+    lights-on (48x50)
+  Sounds (0):
+  Stacks (2):
+    when green flag clicked        go to x: -193 y: -101        switch to costume "lights-out"    end
+    when Sprite2 clicked        broadcast "lights"        next costume    end--------
+Sprite: tin
+  Costumes (6):
+    opentin (292x298)
+    opentinBlack (292x298)
+    closedtin-bottom (376x215)
+    closedtin-bottom2 (376x215)
+    closedtin (345x201)
+    opentinBlack2 (292x298)
+  Sounds (0):
+  Stacks (1):
+    when green flag clicked        go to x: 40 y: 0        show        set size to 85%        switch to costume "closedtin"        say "How to Make a Pin Hole Camera Out of an Altoids Tin"        wait 2 secs        wait until (not ((STEP) = 0))        switch to costume "opentin"        say "Spray Paint the Inside Black"        repeat until ((mouse down?) and ((touching s[ ]?) and ((TOOL) = (word-spray))))          broadcast "toolSwitch"        set "TOOL" to "0"        say ""        switch to costume "opentinBlack"        wait 2 secs        change "STEP" by 1        switch to costume "closedtin-bottom"        say "Drill a 1/4" hole in the middle of the bottom"        set "targetX" to "53"        set "targetY" to "-10"        set "targetTool" to "drill"        broadcast "target"        wait until ((STEP) > 2)        change "STEP" by -1        broadcast "toolSwitch"        set "TOOL" to "0"        say ""        switch to costume "closedtin-bottom2"        wait 2 secs        hide        broadcast "scrap" and wait        show        switch to costume "opentinBlack2"        say "Glue it on the inside over the hole. Don't block the pin hole!"        broadcast "toolSwitch"        set "TOOL" to "0"        broadcast "follow" and wait        say ""        wait 2 secs        broadcast "hideScrap"        switch to costume "closedtin-bottom2"        say "Place a piece of electrical tape over the hole"        set "targetX" to "0"        set "targetY" to "-5"        set "targetTool" to "tape"        broadcast "target" and wait        set "targetX" to "115"        set "targetY" to "0"        set "targetTool" to "tape"        broadcast "target" and wait        broadcast "tape"        wait 2 secs        broadcast "toolSwitch"        set "TOOL" to "0"        broadcast "notape"        switch to costume "opentinBlack2"        say "Go into a dark room, someplace PITCH BLACK!"        wait until (( "background #" of s[ ] ) = 2)        broadcast "showScrap"        say ""        broadcast "film" and wait        switch to costume "closedtin"        go back 3 layers        broadcast "hideScrap"        broadcast "finale!"    end--------
+Sprite: tape
+  Costumes (1):
+    tape (31x14)
+  Sounds (0):
+  Stacks (3):
+    when I receive "toolSwitch"        show    end
+    when tape clicked        broadcast "toolSwitch" and wait        set "TOOL" to "tape"        hide    end
+    when green flag clicked        go to x: -195 y: -60    end--------
+Sprite: spray
+  Costumes (1):
+    sprayPointer1 (19x27)
+  Sounds (0):
+  Stacks (3):
+    when I receive "toolSwitch"        show    end
+    when spray clicked        broadcast "toolSwitch" and wait        set "TOOL" to "spray"        hide    end
+    when green flag clicked        go to x: -206 y: -15    end--------
+Sprite: needle
+  Costumes (1):
+    needle (22x22)
+  Sounds (0):
+  Stacks (3):
+    when I receive "toolSwitch"        show    end
+    when needle clicked        broadcast "toolSwitch" and wait        set "TOOL" to "needle"        hide    end
+    when green flag clicked        go to x: -206 y: 10    end--------
+Sprite: drill
+  Costumes (1):
+    drillPointer (29x19)
+  Sounds (0):
+  Stacks (3):
+    when green flag clicked        broadcast "toolSwitch"        go to x: -211 y: 65    end
+    when I receive "toolSwitch"        show    end
+    when drill clicked        broadcast "toolSwitch" and wait        set "TOOL" to "drill"        hide    end
+--------
+

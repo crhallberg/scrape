@@ -1,0 +1,814 @@
+Project: Alfred O
+Author: Kanoa
+Scratch: 1.4 of 30-Jun-09
+Notes:
+    THANK YOU TO ALL WHO SUPPROTED THIS GAME IN THE SCRATCH AWARDS!
+
+    ~~~~~~~~~~~
+
+    ASDW to change gravity
+
+    Space to move towards mouse based on distance in the proper direction.
+
+    Click to fire laser.
+
+    ~~~~~~~~~~~
+
+    Levels 8 and beyond that involve the spring board do not work properly on the Web, press P to access all levels. Download for full game!
+
+    ~~~~~~~~~~~
+
+    Bug fixes
+
+    MAJOR REWORK IS UNDERWAY! BETTER LEVEL DESIGN! BETTER PERFORMANCE! NEW FEATURES! STAY TUNED.
+
+History:
+    2008-2-12 15:32:59	save	Alfred
+    2008-2-12 15:50:49	save	Alfred
+    2008-2-12 15:54:45	save	Alfred
+    2008-2-12 16:02:02	save	Alfred
+    2008-2-12 16:36:36	save	Alfred
+    2008-2-12 16:40:09	save	Alfred
+    2008-2-12 16:55:17	save	Alfred
+    2008-2-12 17:03:36	save	Alfred
+    2008-2-12 17:10:17	save	Alfred
+    2008-2-12 17:11:23	save	Alfred
+    2008-2-12 22:13:34	save	Alfred
+    2008-2-12 22:14:51	save	Alfred
+    2008-2-12 22:53:57	save	Alfred
+    2008-2-12 23:07:43	save	Alfred
+    2008-2-12 23:08:03	save	Alfred
+    2008-2-12 23:17:44	save	Alfred
+    2008-2-12 23:18:59	share	Alfred	kanoa
+    2008-2-12 23:51:32	save	Alfred	kanoa
+    2008-2-12 23:53:51	save	Alfred	kanoa
+    2008-2-12 23:56:30	save	Alfred	kanoa
+    2008-2-13 00:20:47	save	Alfred	kanoa
+    2008-2-13 00:33:00	save	Alfred	kanoa
+    2008-2-13 00:33:36	save	Alfred	kanoa
+    2008-2-13 11:24:28	save	Alfred
+    2008-2-13 11:43:31	save	Alfred
+    2008-2-13 12:19:15	save	Alfred
+    2008-2-13 22:46:45	save	Alfred
+    2008-2-13 22:56:29	save	Alfred
+    2008-2-13 23:01:39	save	Alfred
+    2008-2-13 23:08:59	save	Alfred
+    2008-2-13 23:12:08	share	Alfred	kanoa
+    2008-2-13 23:12:55	save	Alfred	kanoa
+    2008-2-14 12:58:39	save	Alfred
+    2008-2-14 12:58:46	save	Alfred
+    2008-2-14 13:11:54	save	Alfred
+    2008-2-14 13:14:05	save	Alfred
+    2008-2-14 13:16:05	save	Alfred
+    2008-2-14 14:00:24	save	Alfred
+    2008-2-14 14:01:52	save	Alfred
+    2008-2-14 14:30:43	save	Alfred
+    2008-2-14 14:48:15	save	Alfred
+    2008-2-14 15:11:42	save	Alfred
+    2008-2-18 14:15:31	save	Alfred
+    2008-2-18 14:47:59	save	Alfred
+    2008-2-18 17:08:07	save	Alfred
+    2008-2-18 17:10:24	save	Alfred
+    2008-2-18 20:51:14	save	Alfred
+    2008-2-18 21:50:21	save	Alfred
+    2008-2-18 22:19:27	save	Alfred
+    2008-2-18 22:24:48	save	Alfred
+    2008-2-18 22:25:47	save	Alfred
+    2008-2-18 23:04:56	save	Alfred
+    2008-2-18 23:21:35	save	Alfred
+    2008-2-19 01:00:51	save	Alfred
+    2008-2-19 01:04:55	save	Alfred
+    2008-2-19 01:09:56	save	Alfred
+    2008-2-19 01:20:06	save	Alfred
+    2008-2-19 01:26:02	save	Alfred
+    2008-2-19 01:29:40	save	Alfred
+    2008-2-19 01:31:36	save	Alfred
+    2008-2-19 01:39:21	save	Alfred
+    2008-2-19 01:50:27	save	Alfred
+    2008-2-19 01:55:16	save	Alfred
+    2008-2-19 11:46:28	save	Alfred
+    2008-2-19 11:49:15	save	Alfred
+    2008-2-19 11:55:04	save	Alfred
+    2008-2-19 12:08:19	save	Alfred
+    2008-2-19 12:51:44	save	Alfred
+    2008-2-19 13:08:25	save	Alfred
+    2008-2-19 13:26:30	save	Alfred
+    2008-2-19 13:30:34	save	Alfred
+    2008-2-19 13:32:54	save	Alfred
+    2008-2-19 13:35:48	save	Alfred
+    2008-2-19 13:45:51	save	Alfred
+    2008-2-19 13:54:05	save	Alfred
+    2008-2-19 14:06:42	save	Alfred
+    2008-2-19 14:17:32	save	Alfred
+    2008-2-19 14:20:42	save	Alfred
+    2008-2-19 14:29:02	save	Alfred
+    2008-2-19 15:20:36	save	Alfred
+    2008-2-19 15:47:56	save	Alfred
+    2008-2-19 16:08:16	save	Alfred
+    2008-2-19 16:14:46	save	Alfred
+    2008-2-19 16:23:54	save	Alfred
+    2008-2-19 16:37:30	save	Alfred
+    2008-2-19 17:18:14	save	Alfred
+    2008-2-19 20:19:14	save	Alfred
+    2008-2-19 20:26:29	save	Alfred
+    2008-2-19 20:53:36	save	Alfred
+    2008-2-19 21:04:51	save	Alfred
+    2008-2-19 21:07:54	save	Alfred
+    2008-2-19 21:19:27	save	Alfred
+    2008-2-19 21:21:29	save	Alfred
+    2008-2-19 21:30:57	save	Alfred
+    2008-2-19 21:50:34	save	Alfred
+    2008-2-19 22:01:54	save	Alfred
+    2008-2-19 22:03:07	save	Alfred
+    2008-2-19 22:07:21	save	Alfred
+    2008-2-19 22:49:04	save	Alfred
+    2008-2-19 23:16:30	save	Alfred
+    2008-2-19 23:28:19	save	Alfred
+    2008-2-20 00:38:48	save	Alfred
+    2008-2-20 00:39:19	save	Alfred
+    2008-2-20 01:21:59	save	Alfred
+    2008-2-20 01:41:33	save	Alfred
+    2008-2-20 01:56:35	save	Alfred
+    2008-2-20 11:27:47	save	Alfred
+    2008-2-20 11:39:56	save	Alfred
+    2008-2-20 11:42:56	save	Alfred
+    2008-2-20 11:54:23	save	Alfred
+    2008-2-20 16:50:25	save	Alfred
+    2008-2-20 18:50:20	save	Alfred
+    2008-2-20 19:22:17	save	Alfred
+    2008-2-20 19:28:25	save	Alfred
+    2008-2-20 19:52:08	save	Alfred
+    2008-2-21 01:34:54	save	Alfred
+    2008-2-21 12:42:04	save	Alfred
+    2008-2-21 12:46:52	save	Alfred
+    2008-2-21 12:49:26	save	Alfred
+    2008-2-21 13:20:33	save	Alfred
+    2008-2-21 13:25:31	save	Alfred
+    2008-2-21 13:33:56	save	Alfred
+    2008-2-21 13:46:00	save	Alfred
+    2008-2-21 13:53:27	save	Alfred
+    2008-2-21 13:55:16	save	Alfred
+    2008-2-21 14:25:28	share	Alfred	Kanoa
+    2008-2-21 14:29:20	save	Alfred	Kanoa
+    2008-2-21 14:53:05	save	Alfred	Kanoa
+    2008-2-21 14:56:59	share	Alfred	Kanoa
+    2008-2-21 15:05:42	save	Alfred	Kanoa
+    2008-2-21 22:45:56	save	Alfred
+    2008-2-21 22:52:25	save	Alfred
+    2008-2-22 17:47:13	save	Alfred
+    2008-3-2 13:28:49	save	Alfred
+    2008-3-2 13:42:48	save	Alfred
+    2008-3-2 14:04:33	save	Alfred
+    2008-3-2 14:37:02	save	Alfred
+    2008-3-2 14:37:32	save	Alfred
+    2008-3-2 14:41:56	save	Alfred
+    2008-3-5 22:29:28	save	Alfred
+    2008-3-5 22:31:17	save	Alfred
+    2008-5-2 00:19:53	share	Alfred	Kanoa
+    2008-5-2 01:01:11	save	Alfred	Kanoa
+    2008-5-2 01:03:12	save	Alfred	Kanoa
+    2008-5-2 01:08:15	save	Alfred	Kanoa
+    2008-5-2 01:14:51	save	Alfred	Kanoa
+    2008-5-2 01:16:30	save	Alfred	Kanoa
+    2008-5-2 01:35:23	save	Alfred	Kanoa
+    2008-5-2 01:36:00	share	Alfred	Kanoa
+    2008-5-2 01:40:17	share	Alfred	Kanoa
+    2008-5-2 01:48:02	save	Alfred	Kanoa
+    2008-5-2 01:48:44	save	Alfred	Kanoa
+    2008-5-2 01:49:10	share	Alfred	Kanoa
+    2008-5-2 01:52:06	save	Alfred	Kanoa
+    2008-5-2 01:53:57	save	Alfred	Kanoa
+    2008-5-2 14:56:28	save	Alfred
+    2008-5-2 15:05:55	save	Alfred
+    2008-8-28 16:48:00	save	Alfred
+    2008-8-28 18:06:57	save	Alfred
+    2008-8-28 18:11:57	save	Alfred
+    2008-8-28 18:52:00	save	Alfred
+    2008-8-28 18:59:49	save	Alfred
+    2008-9-2 14:02:58	save	Alfred
+    2008-9-2 14:03:32	save	Alfred
+    2008-9-12 16:04:15	save	Alfred
+    2008-9-12 16:05:15	share	Alfred	kanoa
+    2009-7-23 16:10:02	save	Alfred
+    2009-7-23 16:17:34	save	Alfred
+    2009-7-23 16:20:16	share	Alfred	Kanoa
+    2009-7-23 16:23:30	share	 Alfred 1.2	Kanoa
+    2009-7-23 16:30:28	share	Alfred	Kanoa
+    2009-7-23 16:31:47	save	Alfred	Kanoa
+    2009-7-23 16:34:23	share	Alfred	Kanoa
+    2010-5-22 01:08:33	save	Alfred O
+    2010-6-18 00:15:34	save	Alfred O
+
+Totals:
+    Sprites: 53
+    Stacks: 234
+    Unique costumes: 72
+    Unique sounds: 53
+--------
+Sprite: Stage
+  Costumes (7):
+    left (480x360)
+    right (480x360)
+    down (480x360)
+    up (480x360)
+    stall (480x360)
+    hleft (480x360)
+    hright (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (4):
+    when green flag clicked        switch to background "down"        set "gForce" to 0.3        set "gX" to 0        set "gY" to ((gForce) * -1)        set "hspeed" to 0        set "vspeed" to 0        set "Level" to 1        forever              if (not ((background #) = 5))                 if ((key "w" pressed?) or (key "up arrow" pressed?))                     if (not ((background #) > 5))                         set "gX" to 0                        set "gY" to (gForce)                        switch to background "up"                        broadcast "up" and wait                if ((key "a" pressed?) or (key "left arrow" pressed?))                     set "gX" to ((gForce) * -1)                    set "gY" to 0                    if (not ((background #) > 5)) else                         switch to background "left"                    else                        switch to background "hleft"                    broadcast "left" and wait                if ((key "s" pressed?) or (key "down arrow" pressed?))                     if (not ((background #) > 5))                         set "gX" to 0                        set "gY" to ((gForce) * -1)                        switch to background "down"                        broadcast "down" and wait                if ((key "d" pressed?) or (key "right arrow" pressed?))                     set "gX" to (gForce)                    set "gY" to 0                    if (not ((background #) > 5)) else                         switch to background "right"                    else                        switch to background "hright"                    broadcast "right" and wait    end
+    when I receive "stall"        switch to background "stall"    end
+    when I receive "flip"        if ((gX) = (gForce)) else             set "gX" to ((gForce) * -1)            set "gY" to 0            broadcast "left" and wait            if (not ((background #) = 5))                 switch to background "left"        else            if ((gX) = ((gForce) * -1)) else                 set "gX" to (gForce)                set "gY" to 0                broadcast "right" and wait                if (not ((background #) = 5))                     switch to background "right"            else                if ((gY) = (gForce)) else                     set "gX" to 0                    set "gY" to ((gForce) * -1)                    broadcast "down" and wait                    if (not ((background #) = 5))                         switch to background "down"                else                    if ((gY) = ((gForce) * -1))                         set "gX" to 0                        set "gY" to (gForce)                        broadcast "up" and wait                        if (not ((background #) = 5))                             switch to background "up"    end
+    when I receive "life"        if ((Level) = 1)             set "gX" to 0            set "gY" to ((gForce) * -1)            switch to background "down"            broadcast "down" and wait        if ((Level) = 2)             set "gX" to 0            set "gY" to (gForce)            switch to background "stall"            broadcast "up" and wait        if ((Level) = 3)             set "gX" to 0            set "gY" to ((gForce) * -1)            switch to background "down"            broadcast "down" and wait        if ((Level) = 4)             set "gX" to (gForce)            set "gY" to 0            switch to background "right"            broadcast "right" and wait        if ((Level) = 5)             set "gX" to (gForce)            set "gY" to 0            switch to background "stall"            broadcast "right" and wait        if ((Level) = 6)             set "gX" to (gForce)            set "gY" to 0            switch to background "stall"            broadcast "right" and wait        if ((Level) = 7)             set "gX" to (gForce)            set "gY" to 0            switch to background "right"            broadcast "right"        if ((Level) = 8)             set "gX" to 0            set "gY" to ((gForce) * -1)            switch to background "stall"            broadcast "down"        if ((Level) = 9)             set "gX" to 0            set "gY" to ((gForce) * -1)            switch to background "down"            broadcast "down"        if ((Level) = 10)             set "gX" to 0            set "gY" to ((gForce) * -1)            switch to background "stall"            broadcast "down"        if ((Level) = 11)             set "gX" to ((gForce) * -1)            set "gY" to 0            switch to background "stall"            broadcast "left"        if ((Level) = 12)             set "gX" to ((gForce) * -1)            set "gY" to 0            switch to background "hleft"            broadcast "left"        if ((Level) = 13)             set "gX" to ((gForce) * -1)            set "gY" to 0            switch to background "hleft"            broadcast "left"        if ((Level) = 14)             set "gX" to (gForce)            set "gY" to 0            switch to background "stall"            broadcast "right"        if ((Level) = 15)             set "gX" to (gForce)            set "gY" to 0            switch to background "right"            broadcast "right"            broadcast "SHADOW"        if ((Level) = 16)             set "gX" to (gForce)            set "gY" to 0            switch to background "stall"            broadcast "right"            broadcast "SHADOW"        if ((Level) = 17)             broadcast "END!"    end--------
+Sprite: head
+  Costumes (2):
+    right (8x5)
+    right2 (90x7)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (4):
+    when green flag clicked        forever              if (mouse down?)                 switch to costume "right2"                wait until (not (mouse down?))            switch to costume "right"    end
+    when I receive "death"        repeat 20              change "ghost" effect by 5        wait 0.1 secs        set "ghost" effect to 0    end
+    when I receive "END!"        hide    end
+    when green flag clicked        show        forever              go to front            if ((gX) = 0) else                 go to x: ( "x position" of s[ ] ) y: (( "y position" of s[ ] ) - (40 * (gY)))            else                go to x: (( "x position" of s[ ] ) - (40 * (gX))) y: ( "y position" of s[ ] )            point towards s[ ]    end--------
+Sprite: shadowhead
+  Costumes (2):
+    right (8x5)
+    right2 (90x7)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (4):
+    when I receive "SHADOW"        show        go to front        forever              if ((gX) = 0) else                 go to x: ( "x position" of s[ ] ) y: (( "y position" of s[ ] ) + (40 * (gY)))            else                go to x: (( "x position" of s[ ] ) + (40 * (gX))) y: ( "y position" of s[ ] )            point in direction (( "direction" of s[ ] ) + 180)            if (mouse down?)                 switch to costume "right2"                wait 0.1 secs            switch to costume "right"            if (((Level) < 15) or ((Level) > 16))                 hide                stop script    end
+    when I receive "death"        repeat 20              change "ghost" effect by 5        wait 0.1 secs        set "ghost" effect to 0    end
+    when I receive "END!"        hide    end
+    when green flag clicked        hide    end--------
+Sprite: Sprite18
+  Costumes (1):
+    level10 (37x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 15)             show            go to front    end
+    when green flag clicked        go to x: 100 y: -160        hide    end
+    when Sprite18 clicked        set "Level" to 15        broadcast "select"        broadcast "life"    end--------
+Sprite: Sprite17
+  Costumes (1):
+    level10 (37x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 14)             show            go to front    end
+    when green flag clicked        go to x: 70 y: -160        hide    end
+    when Sprite17 clicked        set "Level" to 14        broadcast "select"        broadcast "life"    end--------
+Sprite: Number2
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 2)             show            go to front    end
+    when green flag clicked        go to x: -205 y: -160        hide    end
+    when Number2 clicked        set "Level" to 2        broadcast "select"        broadcast "life"    end--------
+Sprite: Number3
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when I receive "END!"        hide    end
+    when I receive "three"        if ((Level) = 4)             think "To reset or return to a level, click on the number down here!"            wait until (not ((Level) = 4))            think ""    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 3)             show            go to front    end
+    when green flag clicked        go to x: -185 y: -160        hide    end
+    when Number3 clicked        set "Level" to 3        broadcast "select"        broadcast "life"    end--------
+Sprite: Number4
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 4)             show            go to front    end
+    when green flag clicked        go to x: -165 y: -160        hide    end
+    when Number4 clicked        set "Level" to 4        broadcast "select"        broadcast "life"    end--------
+Sprite: Number5
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when green flag clicked        go to x: -145 y: -160        hide    end
+    when I receive "life"        if ((Level) = 5)             show            go to front    end
+    when Number5 clicked        set "Level" to 5        broadcast "select"        broadcast "life"    end--------
+Sprite: Number6
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 6)             show            go to front    end
+    when green flag clicked        go to x: -125 y: -160        hide    end
+    when Number6 clicked        set "Level" to 6        broadcast "select"        broadcast "life"    end--------
+Sprite: Number7
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 7)             show            go to front    end
+    when green flag clicked        go to x: -105 y: -160        hide    end
+    when Number7 clicked        set "Level" to 7        broadcast "select"        broadcast "life"    end--------
+Sprite: Number8
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 8)             show            go to front    end
+    when green flag clicked        go to x: -85 y: -160        hide    end
+    when Number8 clicked        set "Level" to 8        broadcast "select"        broadcast "life"    end--------
+Sprite: Number9
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 9)             show            go to front    end
+    when green flag clicked        go to x: -65 y: -160        hide    end
+    when Number9 clicked        set "Level" to 9        broadcast "select"        broadcast "life"    end--------
+Sprite: Sprite9
+  Costumes (1):
+    level10 (37x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 10)             show            go to front    end
+    when green flag clicked        go to x: -45 y: -160        hide    end
+    when Sprite9 clicked        set "Level" to 10        broadcast "select"        broadcast "life"    end--------
+Sprite: Sprite10
+  Costumes (1):
+    level10 (37x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 11)             show            go to front    end
+    when green flag clicked        go to x: -15 y: -160        hide    end
+    when Sprite10 clicked        set "Level" to 11        broadcast "select"        broadcast "life"    end--------
+Sprite: Sprite12
+  Costumes (1):
+    level10 (37x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 12)             show            go to front    end
+    when green flag clicked        go to x: 10 y: -160        hide    end
+    when Sprite12 clicked        set "Level" to 12        broadcast "select"        broadcast "life"    end--------
+Sprite: Sprite16
+  Costumes (1):
+    level10 (37x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 13)             show            go to front    end
+    when green flag clicked        go to x: 40 y: -160        hide    end
+    when Sprite16 clicked        set "Level" to 13        broadcast "select"        broadcast "life"    end--------
+Sprite: Sprite19
+  Costumes (1):
+    level10 (37x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "END!"        hide    end
+    when I receive "z"        show        go to front    end
+    when I receive "life"        if ((Level) = 16)             show            go to front    end
+    when green flag clicked        go to x: 128 y: -160        hide    end
+    when Sprite19 clicked        set "Level" to 16        broadcast "select"        broadcast "life"    end--------
+Sprite: wall1
+  Costumes (1):
+    block (38x121)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when green flag clicked        point in direction 61        go to front        hide        hide    end
+    when I receive "right"        point in direction 19    end
+    when I receive "left"        point in direction 19    end
+    when I receive "up"        point in direction 61    end
+    when I receive "down"        point in direction 61    end
+    when I receive "life"        if ((Level) = 5) else             go to x: 220 y: -119            show        else            if ((Level) = 6) else                 go to x: 40 y: 120                show            else                if ((Level) = 11) else                     go to x: -36 y: 115                    show                else                    if ((Level) = 12) else                         go to x: -190 y: 5                        show                    else                        if ((Level) = 13) else                             go to x: -151 y: -25                            repeat until (not ((Level) = 13))                                  if ((gX) < 0) else                                     show                                else                                    hide                        else                            if ((Level) = 16) else                                 go to x: 0 y: 0                                go back 1 layers                                show                            else                                hide    end--------
+Sprite: wall3
+  Costumes (1):
+    block (38x175)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when green flag clicked        point in direction 88        go to front        hide    end
+    when I receive "right"        point in direction 19    end
+    when I receive "left"        point in direction 19    end
+    when I receive "up"        point in direction 88    end
+    when I receive "down"        point in direction 88    end
+    when I receive "life"        if ((Level) = 5) else             go to x: -100 y: 0            show        else            if ((Level) = 6) else                 go to x: 220 y: -30                show            else                if ((Level) = 12) else                     go to x: 220 y: 115                    show                else                    if ((Level) = 13) else                         go to x: 220 y: 0                        repeat until (not ((Level) = 13))                              if ((gX) > 0) else                                 show                            else                                hide                    else                        hide    end--------
+Sprite: Sprite1
+  Costumes (3):
+    arrow (31x13)
+    arrow2 (31x13)
+    arrow3 (31x13)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        hide        switch to costume "arrow"        go to front    end
+    when I receive "life"        switch to costume "arrow"        if ((Level) = 5) else             go to x: 175 y: 100            point in direction 90            show            set "Time" to 3            set "Time2" to 2        else            if ((Level) = 14) else                 go to x: 115 y: 20                point in direction 90                show                set "Time" to 1                set "Time2" to 1            else                hide                stop script        forever              if (((Level) = 14) and (( "y position" of s[ ] ) < 0))                 set "Time" to 0.4                set "Time2" to 0.5            if ((touching color c[CC0099]?) or (touching s[ ]?))                 switch to costume "arrow2"                turn  180 degrees                broadcast "flip"                wait (Time) secs                switch to costume "arrow3"                wait (Time2) secs                switch to costume "arrow"                broadcast "flip"                turn  180 degrees    end--------
+Sprite: wall2
+  Costumes (1):
+    block (38x175)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when I receive "life"        if ((Level) = 5) else             go to x: 220 y: 28            show        else            if ((Level) = 6) else                 go to x: 40 y: -90                show            else                if ((Level) = 7) else                     go to x: -45 y: -10                    show                else                    if ((Level) = 11) else                         go to x: -245 y: 110                        show                    else                        if ((Level) = 12) else                             go to x: 220 y: -115                            show                        else                            if ((Level) = 13) else                                 go to x: 0 y: 75                                repeat until (not ((Level) = 13))                                      if ((gX) > 0) else                                         show                                    else                                        hide                            else                                hide    end
+    when green flag clicked        point in direction 88        go to front        hide    end
+    when I receive "right"        point in direction 19    end
+    when I receive "left"        point in direction 19    end
+    when I receive "up"        point in direction 88    end
+    when I receive "down"        point in direction 88    end--------
+Sprite: guardian
+  Costumes (1):
+    robot (20x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (3):
+    when green flag clicked        set "ghost" effect to 100        go to front    end
+    when I receive "impact"        go to s[ ]        point in direction ( "direction" of s[ ] )        set "fix" to 0        if ((gX) = 0) else             if (color c[F80000] is touching c[000000]?) else                 set "vspeed" to (-0.5 * (vspeed))                reset timer            else                if (color c[0040FF] is touching c[000000]?) else                     set "hspeed" to (-0.5 * (hspeed))                    reset timer                else                    set "vspeed" to 0                    set "hspeed" to 0                    set "fix" to 1        else            if (color c[F80000] is touching c[000000]?) else                 set "hspeed" to (-0.5 * (hspeed))                reset timer            else                if (color c[0040FF] is touching c[000000]?) else                     set "vspeed" to (-0.5 * (vspeed))                    reset timer                else                    set "vspeed" to 0                    set "hspeed" to 0                    set "fix" to 1    end
+    when I receive "life"        if ((Level) = 13)             hide    end--------
+Sprite: Number1
+  Costumes (1):
+    level10 (27x31)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when p key pressed        broadcast "z"    end
+    when I receive "END!"        hide    end
+    when green flag clicked        go to x: -225 y: -160        show        go to front    end
+    when Number1 clicked        set "Level" to 1        broadcast "select"        broadcast "life"    end
+    when I receive "zMouse"        think "Use the space bar to drive towards the mouse. The farther, the faster!"        wait until (not ((Level) = 1))        think ""    end--------
+Sprite: robot
+  Costumes (1):
+    robot (29x27)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (12):
+    when I receive "death"        set "hspeed" to 0        set "vspeed" to 0        repeat 20              change "ghost" effect by 5        broadcast "life"        broadcast "select"        wait 0.1 secs        set "ghost" effect to 0    end
+    when green flag clicked        set "Level" to 1        show        go to front        broadcast "life"        go to x: 0 y: 0        set "hspeed" to 0        set "hspeed" to 0        point in direction 180        forever              repeat until ((touching color c[000000]?) and ((timer) > 0.1))                  change "hspeed" by (gX)                change "vspeed" by (gY)                change x by (hspeed)                change y by (vspeed)                if ((touching s[edge]?) or (touching s[spike]?))                     broadcast "death"                    wait 1 secs            broadcast "impact" and wait            if ((fix) = 1)                 if (touching s[block1]?) else                     set "bump" to ( "direction" of s[block1] )                    set "fixX" to ( "x position" of s[block1] )                    set "fixY" to ( "y position" of s[block1] )                else                    if (touching s[block2]?) else                         set "bump" to ( "direction" of s[block2] )                        set "fixX" to ( "x position" of s[block2] )                        set "fixY" to ( "y position" of s[block2] )                    else                        if (touching s[block3]?) else                             set "bump" to ( "direction" of s[block3] )                            set "fixX" to ( "x position" of s[block3] )                            set "fixY" to ( "y position" of s[block3] )                        else                            if (touching s[wall1]?) else                                 set "bump" to ( "direction" of s[wall1] )                                set "fixX" to ( "x position" of s[wall1] )                                set "fixY" to ( "y position" of s[wall1] )                            else                                if (touching s[wall2]?) else                                     set "bump" to ( "direction" of s[wall2] )                                    set "fixX" to ( "x position" of s[wall2] )                                    set "fixY" to ( "y position" of s[wall2] )                                else                                    if (touching s[drag]?) else                                         set "bump" to ( "direction" of s[drag] )                                        set "fixX" to ( "x position" of s[drag] )                                        set "fixY" to ( "y position" of s[drag] )                                    else                                        if (touching s[trapdoor1]?) else                                             set "bump" to ( "direction" of s[trapdoor1] )                                            set "fixX" to ( "x position" of s[trapdoor1] )                                            set "fixY" to ( "y position" of s[trapdoor1] )                                        else                                            if (touching s[trapdoor2]?) else                                                 set "bump" to ( "direction" of s[trapdoor2] )                                                set "fixX" to ( "x position" of s[trapdoor2] )                                                set "fixY" to ( "y position" of s[trapdoor2] )                                            else                                                if (touching s[timetrap]?) else                                                     set "bump" to ( "direction" of s[timetrap] )                                                    set "fixX" to ( "x position" of s[timetrap] )                                                    set "fixY" to ( "y position" of s[timetrap] )                                                else                                                    if (touching s[floor1]?) else                                                         set "bump" to ( "direction" of s[floor1] )                                                        set "fixX" to ( "x position" of s[floor1] )                                                        set "fixY" to ( "y position" of s[floor1] )                                                    else                                                        if (touching s[timetrap2]?) else                                                             set "bump" to ( "direction" of s[timetrap2] )                                                            set "fixX" to ( "x position" of s[timetrap2] )                                                            set "fixY" to ( "y position" of s[timetrap2] )                                                        else                                                            if (touching s[wall3]?) else                                                                 set "bump" to ( "direction" of s[wall3] )                                                                set "fixX" to ( "x position" of s[wall3] )                                                                set "fixY" to ( "y position" of s[wall3] )                                                            else                                                                if (touching s[block4]?) else                                                                     set "bump" to ( "direction" of s[block4] )                                                                    set "fixX" to ( "x position" of s[block4] )                                                                    set "fixY" to ( "y position" of s[block4] )                                                                else                                                                    if (touching s[spring]?) else                                                                         set "bump" to 3                                                                        set "fixX" to ( "x position" of s[spring] )                                                                        set "fixY" to ( "y position" of s[spring] )                                                                    else                                                                        if (touching s[trapdoor3]?) else                                                                             set "bump" to 2                                                                            set "fixX" to ( "x position" of s[trapdoor3] )                                                                            set "fixY" to ( "y position" of s[trapdoor3] )                                                                        else                                                                            if (touching s[floor2]?)                                                                                 set "bump" to ( "direction" of s[floor2] )                                                                                set "fixX" to ( "x position" of s[floor2] )                                                                                set "fixY" to ( "y position" of s[floor2] )                set "fix" to 0                if ((direction) = -90)                     set x to ((fixX) + ((bump) + 14))                if ((direction) = 180)                     set y to ((fixY) + ((bump) + 14))                if ((direction) = 90)                     set x to ((fixX) - ((bump) + 14))                if ((direction) = 0)                     set y to ((fixY) - ((bump) + 14))                repeat until (not (touching color c[000000]?))                      set "hspeed" to 0                    set "vspeed" to 0                    if (key "space" pressed?)                         if ((gX) = 0) else                             change x by (((mouse x) - (x position)) / 100)                            set "hspeed" to (((mouse x) - (x position)) / 100)                        else                            change y by (((mouse y) - (y position)) / 100)                            set "vspeed" to (((mouse y) - (y position)) / 100)    end
+    when I receive "left"        point in direction -90    end
+    when I receive "up"        point in direction 0    end
+    when I receive "right"        point in direction 90    end
+    when I receive "down"        point in direction 180    end
+    when I receive "END!"        hide    end
+    when green flag clicked        wait 5 secs        if ((Level) = 1)             if ((gY) < 0.1)                 think "Use the A,S,W, and D keys to change the gravity"                wait until (((key "up arrow" pressed?) or (key "w" pressed?)) or (not ((Level) = 1)))                think ""    end
+    when I receive "select"        set "hspeed" to 0        set "hspeed" to 0        if ((Level) = 1)             go to x: 0 y: 0            point in direction 180        if ((Level) = 2)             go to x: 62 y: 92            point in direction 0        if ((Level) = 3)             go to x: -75 y: -92            point in direction 180        if ((Level) = 4)             go to x: 120 y: 85            point in direction 90        if ((Level) = 5)             go to x: 187 y: -82            point in direction 90        if ((Level) = 6)             go to x: -20 y: -82            point in direction 90        if ((Level) = 7)             go to x: 110 y: 125            point in direction 90        if ((Level) = 8)             go to x: -110 y: -50            point in direction 180        if ((Level) = 9)             go to x: 145 y: -25            point in direction 180        if ((Level) = 10)             go to x: -190 y: -60            point in direction 180        if ((Level) = 11)             go to x: -185 y: 70            point in direction -90        if ((Level) = 12)             go to x: -150 y: -115            point in direction -90        if ((Level) = 13)             go to x: -95 y: 125            point in direction -90        if ((Level) = 14)             go to x: 70 y: 100            point in direction 90        if ((Level) = 15)             go to x: -160 y: -25            point in direction 90            broadcast "SHADOW"        if ((Level) = 16)             go to x: -49 y: -25            point in direction 90    end
+    when I receive "life"        if ((Level) = 5) else             say "The farther you hold your mouse from me, the faster I'll go!" for 4 secs        else            say ""    end
+    mouse down?
+
+    if ((Level) = 17)         go to x: -165 y: -45        point in direction 90--------
+Sprite: shadow
+  Costumes (1):
+    robot (29x27)
+  Sounds (0):
+  Stacks (3):
+    when I receive "SHADOW"        set "ghost" effect to 30        show        repeat until (((Level) < 15) or ((Level) > 16))              go to x: (-1 * ( "x position" of s[ ] )) y: (-1 * ( "y position" of s[ ] ))            point in direction (( "direction" of s[ ] ) + 180)        hide    end
+    when I receive "death"        set "hspeed" to 0        set "vspeed" to 0        repeat 20              change "ghost" effect by 5        wait 0.15 secs        set "ghost" effect to 0    end
+    when green flag clicked        go to front        go back 1 layers        hide    end--------
+Sprite: drag
+  Costumes (2):
+    lockblock (35x35)
+    prelockblock (35x35)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        switch to costume "prelockblock"        if ((Level) = 3) else             go to x: 60 y: 0            show            say "You Can Drag Me!"        else            if ((Level) = 7) else                 go to x: -175 y: 100                show            else                if ((Level) = 13) else                     go to x: 190 y: -130                else                    hide                    stop script        repeat until (touching s[ ]?)              if ((Level) = 13)                 if ((gX) < 0) else                     show                else                    hide            if ((touching s[ ]?) and (mouse down?))                 repeat until (not (mouse down?))                      go to s[ ]        broadcast "three"        say ""        switch to costume "lockblock"    end
+    when green flag clicked        hide        go to front        point in direction 18    end--------
+Sprite: spike
+  Costumes (4):
+    spike4 (33x5)
+    spike8 (65x5)
+    spike12 (97x5)
+    spike16 (129x5)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when I receive "life"        if ((Level) = 4) else             switch to costume "spike8"            set size to 200%            show            go to x: 150 y: 0            point in direction -90        else            if ((Level) = 9) else                 switch to costume "spike16"                set size to 200%                show                go to x: -25 y: 0                point in direction 90            else                if ((Level) = 11) else                     switch to costume "spike8"                    set size to 200%                    show                    go to x: 230 y: 30                    point in direction 180                else                    if ((Level) = 12) else                         switch to costume "spike16"                        set size to 200%                        show                        go to x: 0 y: -173                        point in direction -90                    else                        if ((Level) = 13) else                             switch to costume "spike4"                            set size to 100%                            point in direction -90                            go to x: -40 y: -25                            repeat until (not ((Level) = 13))                                  if ((gX) > 0) else                                     show                                else                                    hide                        else                            hide                            stop script        go to front    end
+    when green flag clicked        hide    end
+    when I receive "life"        set "Way" to 1        repeat until (not ((Level) = 12))              repeat until (( "abs" of (y position)) < 150)                  change y by (Way)            repeat until (( "abs" of (y position)) > 150)                  change y by ((Way) * 5)            repeat until (touching s[ ]?)                  change y by (Way)            turn  180 degrees            set "Way" to ((Way) * -1)    end
+    switch to costume "spike16"
+    turn  90 degrees
+    hide--------
+Sprite: Sprite11
+  Costumes (8):
+    switch (15x15)
+    switch1 (15x15)
+    switch2 (15x15)
+    switch3 (15x15)
+    switch4 (15x15)
+    switch5 (15x15)
+    switch6 (15x15)
+    switch7 (15x15)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        hide        switch to costume "switch2"    end
+    when I receive "life"        switch to costume "switch"        if ((Level) = 11) else             go to x: -75 y: 40            show        else            if ((Level) = 14) else                 go to x: 15 y: 140                show            else                hide                stop script        forever              if (touching color c[CE009C]?)                 next costume                broadcast "drop4"                repeat 7                      wait 0.1 secs                    next costume                broadcast "drop4"    end--------
+Sprite: Hole
+  Costumes (1):
+    costume1 (67x67)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        if ((Level) = 6) else             go to x: 40 y: 50            show            point in direction 180        else            if ((Level) = 10) else                 go to x: 100 y: 30                show                point in direction 90            else                hide                stop script        go to front        forever              move 1 steps            if on edge, bounce    end
+    when green flag clicked        hide        set "ghost" effect to 30    end--------
+Sprite: block4
+  Costumes (1):
+    block (38x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        point in direction 19        hide    end
+    when I receive "life"        if ((Level) = 7) else             go to x: 0 y: 135            show        else            if ((Level) = 14) else                 go to x: 170 y: 100                show            else                if ((Level) = 16) else                     go to x: 1 y: 125                    show                else                    hide    end--------
+Sprite: Sprite14
+  Costumes (1):
+    costume1 (408x70)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        go to x: 0 y: 0        hide    end
+    when I receive "END!"        show    end--------
+Sprite: spring
+  Costumes (5):
+    down (40x6)
+    prep (40x7)
+    up1 (40x13)
+    up2 (40x20)
+    top (40x22)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when I receive "springflip"        if ((Level) = 8)             go to x: -185 y: 70            point in direction 180            set "sForce" to 50    end
+    when I receive "life"        if ((Level) = 8) else             point in direction 90            go to x: 57 y: -135            show            set "sForce" to 30        else            if ((Level) = 9) else                 point in direction 90                go to x: -10 y: -85                show                set "sForce" to 100            else                if ((Level) = 10) else                     point in direction 90                    go to x: -10 y: -100                    show                    set "sForce" to 40                else                    if ((Level) = 11) else                         point in direction 180                        go to x: -227 y: 0                        show                        set "sForce" to 60                    else                        if ((Level) = 17) else                             point in direction 90                            go to x: -112 y: -70                            show                            set "sForce" to 30                        else                            hide                            stop script        forever              switch to costume "down"            wait 2 secs            next costume            wait 2 secs            if (touching s[ ]?)                 set "hspeed" to ((sForce) * ((gX) * -1))                set "vspeed" to ((sForce) * ((gY) * -1))            repeat 2                  switch to costume "top"                wait 0.05 secs                switch to costume "up2"                wait 0.05 secs            switch to costume "top"            wait 0.6 secs            switch to costume "up2"            wait 0.3 secs            switch to costume "up1"            wait 0.3 secs            switch to costume "prep"            wait 0.3 secs    end
+    when green flag clicked        hide    end
+    point in direction 90
+    turn  90 degrees--------
+Sprite: block3
+  Costumes (1):
+    block (52x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (7):
+    when I receive "life"        if ((Level) = 4) else             go to x: -140 y: -115            show        else            if ((Level) = 7) else                 go to x: -125 y: -103                show            else                if ((Level) = 17) else                     go to x: -160 y: -85                    show                else                    hide    end
+    when I receive "down"        point in direction 19    end
+    when I receive "up"        point in direction 19    end
+    when I receive "left"        point in direction 26    end
+    when I receive "right"        point in direction 26    end
+    when green flag clicked        point in direction 19        hide    end
+    hide--------
+Sprite: trip3
+  Costumes (4):
+    down (22x27)
+    left (27x22)
+    up (22x27)
+    right (27x22)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        if ((Level) = 2) else             switch to costume "down"            go to x: -70 y: 85            show            say "Drive into me!" for 2 secs        else            if ((Level) = 6) else                 switch to costume "right"                go to x: -5 y: 40                show            else                if ((Level) = 16) else                     switch to costume "down"                    go to x: -160 y: 0                    show                else                    hide                    stop script        forever              if (touching s[ ]?)                 if ((costume #) = 1) else                     set "gX" to 0                    set "gY" to (gForce)                else                    if ((costume #) = 2) else                         set "gX" to (gForce)                        set "gY" to 0                    else                        if ((costume #) = 3) else                             set "gX" to 0                            set "gY" to ((gForce) * -1)                        else                            if ((costume #) = 4)                                 set "gX" to ((gForce) * -1)                                set "gY" to 0                broadcast "flip"                wait until (not (touching s[ ]?))    end
+    when green flag clicked        hide    end--------
+Sprite: GOAL
+  Costumes (1):
+    costume1 (12x12)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (3):
+    when I receive "END!"        hide    end
+    when green flag clicked        show        switch to costume "costume1"        say "Come and Get Me!" for 3 secs        forever              if ((touching s[ ]?) or (touching s[ ]?))                 change "Level" by 1                broadcast "life"                wait until (not (touching s[ ]?))    end
+    when I receive "life"        if ((Level) = 1)             go to x: 75 y: 85        if ((Level) = 2)             go to x: -75 y: -50        if ((Level) = 3)             go to x: 110 y: 85        if ((Level) = 4)             go to x: 150 y: -82        if ((Level) = 5)             go to x: 0 y: -82        if ((Level) = 6)             go to x: 110 y: 125        if ((Level) = 7)             go to x: -110 y: -60        if ((Level) = 8)             go to x: 180 y: 75        if ((Level) = 9)             go to x: -200 y: -70        if ((Level) = 10)             go to x: -200 y: 70        if ((Level) = 11)             go to x: -150 y: -115        if ((Level) = 12)             go to x: -110 y: 125        if ((Level) = 13)             go to x: 150 y: 125        if ((Level) = 14)             go to x: -150 y: -10        if ((Level) = 15)             go to x: -30 y: -25        if ((Level) = 16)             go to x: 170 y: 35    end--------
+Sprite: Sprite5
+  Costumes (2):
+    switch (15x15)
+    switch2 (15x15)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        hide        switch to costume "switch2"    end
+    when I receive "life"        switch to costume "switch2"        if ((Level) = 4) else             go to x: 140 y: 130            show        else            if ((Level) = 11) else                 switch to costume "switch"                go to x: 125 y: -40                show            else                if ((Level) = 16) else                     switch to costume "switch"                    go to x: 200 y: -130                    show                else                    hide                    stop script        forever              if ((touching color c[CE009C]?) or (touching color c[FFFFFF]?))                 next costume                broadcast "drop2"                wait 1 secs    end--------
+Sprite: block2
+  Costumes (1):
+    block (38x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        if ((Level) = 3) else             go to x: 180 y: 85            show        else            if ((Level) = 4) else                 go to x: 180 y: 85                show            else                if ((Level) = 6) else                     go to x: 220 y: -150                    show                else                    if ((Level) = 8) else                         go to x: -200 y: 110                        show                    else                        if ((Level) = 12) else                             go to x: -150 y: 125                            show                        else                            if ((Level) = 13) else                                 go to x: -150 y: 125                                repeat until (not ((Level) = 13))                                      if ((gX) < 0) else                                         show                                    else                                        hide                            else                                if ((Level) = 16) else                                     go to x: -200 y: 125                                    show                                else                                    hide    end
+    when green flag clicked        point in direction 19        hide    end--------
+Sprite: trapdoor2
+  Costumes (2):
+    trapdoor (5x106)
+    trapdoor6 (5x106)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (7):
+    when green flag clicked        hide        point in direction 2        switch to costume "trapdoor"    end
+    when I receive "drop2"        next costume    end
+    when I receive "up"        point in direction 53    end
+    when I receive "down"        point in direction 2    end
+    when I receive "down"        point in direction 53    end
+    when I receive "left"        point in direction 2    end
+    when I receive "life"        switch to costume "trapdoor"        if ((Level) = 4) else             go to x: -25 y: 85            show        else            if ((Level) = 11) else                 go to x: 200 y: 0                show                switch to costume "trapdoor6"            else                if ((Level) = 16) else                     go to x: -185 y: 50                    show                    switch to costume "trapdoor6"                else                    hide    end--------
+Sprite: timetrap2
+  Costumes (2):
+    trapdoor (5x106)
+    trapdoor6 (5x106)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (7):
+    when I receive "life"        switch to costume "trapdoor"        if ((Level) = 4) else             go to x: 85 y: -75            show        else            if ((Level) = 11) else                 go to x: -20 y: -107                show            else                if ((Level) = 14) else                     go to x: -125 y: -50                    show                else                    if ((Level) = 15) else                         go to x: -122 y: -26                        show                    else                        hide    end
+    when green flag clicked        hide        point in direction 53        switch to costume "trapdoor"    end
+    when I receive "left"        point in direction 2    end
+    when I receive "down"        point in direction 53    end
+    when I receive "right"        point in direction 2    end
+    when I receive "up"        point in direction 53    end
+    when I receive "drop3"        next costume        wait 3.1 secs        next costume    end--------
+Sprite: trip2
+  Costumes (4):
+    down (22x27)
+    left (27x22)
+    up (22x27)
+    right (27x22)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        if ((Level) = 6) else             show            go to x: 40 y: 35            switch to costume "up"        else            if ((Level) = 8) else                 show                go to x: -70 y: 110                switch to costume "left"            else                if ((Level) = 9) else                     show                    go to x: -50 y: -50                    switch to costume "up"                    set "FUN" to 0                else                    if ((Level) = 16) else                         show                        go to x: 40 y: -130                        switch to costume "left"                    else                        hide                        stop script        forever              if ((touching s[ ]?) or (touching s[ ]?))                 if ((costume #) = 1) else                     set "gX" to 0                    set "gY" to (gForce)                else                    if ((costume #) = 2) else                         set "gX" to (gForce)                        set "gY" to 0                    else                        if ((costume #) = 3) else                             set "gX" to 0                            set "gY" to ((gForce) * -1)                        else                            if ((costume #) = 4)                                 set "gX" to ((gForce) * -1)                                set "gY" to 0                broadcast "flip"                wait until ((not (touching s[ ]?)) and (not (touching s[ ]?)))            if ((Level) = 9)                 change "FUN" by 1                if (((FUN) mod 70) = 0)                     next costume                    next costume    end
+    when green flag clicked        hide    end--------
+Sprite: block1
+  Costumes (1):
+    block (38x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        point in direction 19        hide    end
+    when I receive "life"        if ((Level) = 3) else             go to x: -75 y: -125            show        else            if ((Level) = 4) else                 go to x: -175 y: 85                show            else                if ((Level) = 7) else                     go to x: 175 y: 125                    show                else                    if ((Level) = 11) else                         go to x: -220 y: -115                        show                    else                        if ((Level) = 12) else                             go to x: -220 y: -115                            show                        else                            if ((Level) = 13) else                                 go to x: 45 y: 70                                repeat until (not ((Level) = 13))                                      if ((gX) < 0) else                                         show                                    else                                        hide                            else                                if ((Level) = 14) else                                     go to x: 201 y: -50                                    show                                else                                    if ((Level) = 15) else                                         go to x: 106 y: 25                                        show                                    else                                        if ((Level) = 16) else                                             go to x: 1 y: 83                                            show                                        else                                            hide    end--------
+Sprite: Sprite7
+  Costumes (4):
+    switch (15x15)
+    switch2 (15x15)
+    switch3 (15x15)
+    switch4 (15x15)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        switch to costume "switch"        if ((Level) = 4) else             go to x: -175 y: -75            show        else            if ((Level) = 10) else                 go to x: 40 y: -60                show            else                if ((Level) = 11) else                     go to x: 15 y: 150                    show                else                    if ((Level) = 14) else                         go to x: 165 y: -100                        show                    else                        if ((Level) = 15) else                             go to x: 150 y: 80                            show                        else                            hide        switch to costume "switch"    end
+    when green flag clicked        hide        switch to costume "switch"        forever              if ((touching color c[CE009C]?) or (touching color c[FFFFFF]?))                 broadcast "drop3"                next costume                repeat 3                      wait 1 secs                    next costume    end--------
+Sprite: floor1
+  Costumes (1):
+    block (175x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when I receive "life"        if ((Level) = 1) else             go to x: 0 y: -125            show        else            if ((Level) = 6) else                 go to x: -152 y: 162                show            else                if ((Level) = 7) else                     go to x: 25 y: -130                    show                else                    if ((Level) = 8) else                         go to x: -50 y: -150                        show                    else                        if ((Level) = 9) else                             go to x: 100 y: -100                            show                        else                            if ((Level) = 10) else                                 go to x: -152 y: 32                                show                            else                                if ((Level) = 12) else                                     go to x: -40 y: 85                                    show                                else                                    hide    end
+    when I receive "down"        point in direction 19    end
+    when I receive "up"        point in direction 19    end
+    when I receive "left"        point in direction 88    end
+    when I receive "right"        point in direction 88    end
+    when green flag clicked        point in direction 19    end--------
+Sprite: trapdoor3
+  Costumes (2):
+    trapdoor (5x106)
+    trapdoor6 (5x106)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (7):
+    when green flag clicked        hide        point in direction 2        switch to costume "trapdoor"    end
+    when I receive "drop4"        next costume    end
+    when I receive "up"        point in direction 53    end
+    when I receive "down"        point in direction 2    end
+    when I receive "down"        point in direction 53    end
+    when I receive "left"        point in direction 2    end
+    when I receive "life"        switch to costume "trapdoor"        if ((Level) = 11) else             go to x: -20 y: 0            show        else            if ((Level) = 14) else                 go to x: -18 y: 100                show            else                hide    end--------
+Sprite: trip1
+  Costumes (4):
+    down (22x27)
+    left (27x22)
+    up (22x27)
+    right (27x22)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        if ((Level) = 6) else             go to x: 180 y: 0            show            switch to costume "left"        else            if ((Level) = 7) else                 go to x: 150 y: 125                show                switch to costume "down"            else                if ((Level) = 9) else                     go to x: -140 y: -50                    show                    switch to costume "down"                else                    hide                    stop script        forever              if (touching s[ ]?)                 if ((costume #) = 1) else                     set "gX" to 0                    set "gY" to (gForce)                else                    if ((costume #) = 2) else                         set "gX" to (gForce)                        set "gY" to 0                    else                        if ((costume #) = 3) else                             set "gX" to 0                            set "gY" to ((gForce) * -1)                        else                            if ((costume #) = 4)                                 set "gX" to ((gForce) * -1)                                set "gY" to 0                broadcast "flip"                if ((Level) = 6)                     set "vspeed" to 1                wait until (not (touching s[ ]?))            if ((Level) = 9)                 change "FUN" by 1                if (((FUN) mod 50) = 0)                     next costume                    next costume    end
+    when green flag clicked        hide    end--------
+Sprite: Sprite15
+  Costumes (1):
+    costume1 (347x22)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        go to x: 0 y: -150        hide    end
+    when I receive "END!"        show    end--------
+Sprite: Sprite13
+  Costumes (1):
+    costume1 (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when green flag clicked        go to x: 0 y: 0        hide    end
+    when I receive "END!"        show        wait 1 secs        stop all     end--------
+Sprite: floor2
+  Costumes (1):
+    block (175x38)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (6):
+    when I receive "up"        point in direction 19    end
+    when I receive "left"        point in direction 88    end
+    when I receive "right"        point in direction 88    end
+    when green flag clicked        point in direction 19    end
+    when I receive "life"        if ((Level) = 1) else             go to x: 0 y: 125            show            wait until (touching s[ ]?)            broadcast "zMouse"        else            if ((Level) = 2) else                 go to x: 0 y: 125                show            else                if ((Level) = 8) else                     go to x: 0 y: 150                    show                else                    if ((Level) = 9) else                         go to x: -115 y: -100                        show                    else                        if ((Level) = 10) else                             go to x: -115 y: -115                            show                        else                            if ((Level) = 11) else                                 go to x: -115 y: -160                                show                            else                                hide    end
+    when I receive "down"        point in direction 19    end--------
+Sprite: timetrap
+  Costumes (2):
+    trapdoor (106x5)
+    trapdoor6 (106x5)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (7):
+    when I receive "life"        switch to costume "trapdoor"        if ((Level) = 10) else             go to x: -14 y: 48            show        else            hide    end
+    when green flag clicked        hide        point in direction 2        switch to costume "trapdoor"    end
+    when I receive "left"        point in direction 53    end
+    when I receive "down"        point in direction 2    end
+    when I receive "right"        point in direction 53    end
+    when I receive "up"        point in direction 2    end
+    when I receive "drop3"        next costume        wait 3.1 secs        next costume    end--------
+Sprite: trip4
+  Costumes (4):
+    down (22x27)
+    left (27x22)
+    up (22x27)
+    right (27x22)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        if ((Level) = 9) else             set "hspeed" to 0            set "vspeed" to 0            go to x: 40 y: -50            show        else            hide            stop script        forever              if (touching s[ ]?)                 if ((costume #) = 1) else                     set "gX" to 0                    set "gY" to (gForce)                else                    if ((costume #) = 2) else                         set "gX" to (gForce)                        set "gY" to 0                    else                        if ((costume #) = 3) else                             set "gX" to 0                            set "gY" to ((gForce) * -1)                        else                            if ((costume #) = 4)                                 set "gX" to ((gForce) * -1)                                set "gY" to 0                broadcast "flip"                wait until (not (touching s[ ]?))            if ((Level) = 9)                 change "FUN" by 1                if (((FUN) mod 100) = 0)                     next costume                    next costume    end
+    when green flag clicked        hide    end--------
+Sprite: flipline
+  Costumes (1):
+    costume1 (480x8)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        if ((Level) = 8) else             go to x: 0 y: 0            show            forever                  if (touching s[ ]?)                     broadcast "flip"                    broadcast "springflip"                    wait until (not (touching s[ ]?))        else            hide    end
+    when green flag clicked        hide    end--------
+Sprite: trapdoor1
+  Costumes (2):
+    trapdoor (106x5)
+    trapdoor6 (106x5)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (8):
+    when I receive "life"        if ((Level) = 2) else             show            go to x: -75 y: 0            point in direction 2            switch to costume "trapdoor"        else            if ((Level) = 4) else                 show                go to x: -140 y: 0                point in direction 2                switch to costume "trapdoor"            else                hide    end
+    when I receive "drop1"        next costume    end
+    when I receive "death"        switch to costume "trapdoor"    end
+    when green flag clicked        hide    end
+    when I receive "left"        point in direction 53    end
+    when I receive "down"        point in direction 2    end
+    when I receive "right"        point in direction 53    end
+    when I receive "up"        point in direction 2    end--------
+Sprite: switch1
+  Costumes (2):
+    switch (15x15)
+    switch2 (15x15)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (2):
+    when I receive "life"        switch to costume "switch2"        if ((Level) = 2) else             show            go to x: -110 y: 30            wait until ((gY) < 0)            wait 1 secs        else            if ((Level) = 4) else                 say ""                show                go to x: 140 y: 40            else                hide                stop script        forever              if ((Level) = 2)                 say "Click to shoot! Use your laser to activate switches like me!"            if ((touching color c[CE009C]?) or (touching color c[FFFFFF]?))                 next costume                broadcast "drop1"                wait 1 secs    end
+    when green flag clicked        hide        switch to costume "switch2"    end
+--------
+

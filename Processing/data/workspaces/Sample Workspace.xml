@@ -1,0 +1,13 @@
+<XML id="55" name="Sample Workspace" author="0">
+
+  <iconSet0 x="504.0" y="39.71808" id="0" infoPanel.Width="680.0" infoPanel.Height="500.0" expanded="true" infoPanel.optionsPanel.toggleBoxToggled0="false" infoPanel.optionsPanel.toggleBoxToggled1="true" infoPanel.optionsPanel.toggleBoxToggled2="false" infoPanel.expanded="true" infoPanel.activeTab="0" infoPanel.graphScale="1.7383966">
+      <myFileIcon0.id>72</myFileIcon0.id>
+      <myFileIcon1.id>74</myFileIcon1.id>
+  </iconSet0>
+
+  <iconSet1 x="171.0" y="122.272736" id="1" infoPanel.Width="680.0" infoPanel.Height="500.0" expanded="true" infoPanel.optionsPanel.toggleBoxToggled0="false" infoPanel.optionsPanel.toggleBoxToggled1="true" infoPanel.optionsPanel.toggleBoxToggled2="false" infoPanel.expanded="true" infoPanel.activeTab="0" infoPanel.graphScale="5.5675673">
+      <myFileIcon0.id>117</myFileIcon0.id>
+      <myFileIcon1.id>116</myFileIcon1.id>
+  </iconSet1>
+
+</XML>

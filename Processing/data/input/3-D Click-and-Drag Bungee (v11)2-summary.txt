@@ -1,0 +1,662 @@
+Project: 3-D Click-and-Drag Bungee (v11)2
+Location: C:\Users\Brett\Documents\Scratch Projects\3-D Click-and-Drag Bungee (v11)2.sb
+Author: batzerk
+Scratch: 1.1
+Notes:
+    Corrected shadows' range on screen, made the balls 'throwable', and reduced blockiness of balls.
+    
+    Now with optional elastic band.
+    
+    Also, toggle the band with "B". "C" for clear. Spacebar to cycle through 3 backgrounds. Up arrow key to thrust balls away from you.
+    
+    Enjoy!!  =]
+
+History:
+    2007-8-31 21:38:43	save	Infalliball		Brett Taylor
+    2007-8-31 21:39:46	save	Infalliball		Brett Taylor
+    2007-8-31 21:40:19	save	Infalliball		Brett Taylor
+    2007-8-31 21:40:50	save	Infalliball		Brett Taylor
+    2007-8-31 21:41:39	save	Infalliball		Brett Taylor
+    2007-8-31 21:42:21	save	Infalliball		Brett Taylor
+    2007-8-31 21:44:14	save	Infalliball		Brett Taylor
+    2007-8-31 21:44:22	save	Infalliball		Brett Taylor
+    2007-8-31 21:45:30	save	Infalliball		Brett Taylor
+    2007-8-31 21:45:51	save	Infalliball		Brett Taylor
+    2007-8-31 21:46:26	save	Infalliball		Brett Taylor
+    2007-8-31 21:47:45	save	Infalliball		Brett Taylor
+    2007-8-31 21:48:18	save	Infalliball		Brett Taylor
+    2007-8-31 21:48:43	save	Infalliball		Brett Taylor
+    2007-8-31 21:49:55	save	Infalliball		Brett Taylor
+    2007-8-31 21:50:42	save	Infalliball		Brett Taylor
+    2007-8-31 21:51:53	save	Infalliball		Brett Taylor
+    2007-8-31 21:52:16	save	Infalliball		Brett Taylor
+    2007-8-31 21:52:44	save	Infalliball		Brett Taylor
+    2007-8-31 21:54:02	save	Infalliball		Brett Taylor
+    2007-8-31 21:54:37	save	Infalliball		Brett Taylor
+    2007-8-31 21:55:37	save	Infalliball		Brett Taylor
+    2007-8-31 21:57:01	save	Infalliball		Brett Taylor
+    2007-8-31 21:57:17	save	Infalliball		Brett Taylor
+    2007-8-31 22:04:13	save	Infalliball		Brett Taylor
+    2007-8-31 22:04:47	save	Infalliball		Brett Taylor
+    2007-8-31 22:05:41	save	Infalliball		Brett Taylor
+    2007-8-31 22:06:41	save	Infalliball		Brett Taylor
+    2007-8-31 22:07:06	save	Infalliball		Brett Taylor
+    2007-8-31 22:07:35	save	Infalliball		Brett Taylor
+    2007-8-31 22:07:49	save	Infalliball		Brett Taylor
+    2007-8-31 22:07:59	save	Infalliball		Brett Taylor
+    2007-8-31 22:08:47	save	Infalliball		Brett Taylor
+    2007-8-31 22:08:51	save	Infalliball		Brett Taylor
+    2007-8-31 22:10:29	save	Infalliball		Brett Taylor
+    2007-8-31 22:10:53	save	Infalliball		Brett Taylor
+    2007-8-31 22:11:45	save	Infalliball		Brett Taylor
+    2007-8-31 22:12:12	save	Infalliball		Brett Taylor
+    2007-8-31 22:12:48	save	Infalliball		Brett Taylor
+    2007-8-31 22:13:34	save	Infalliball		Brett Taylor
+    2007-8-31 22:14:17	save	Infalliball		Brett Taylor
+    2007-8-31 22:15:10	save	Infalliball		Brett Taylor
+    2007-8-31 22:15:58	save	Infalliball		Brett Taylor
+    2007-8-31 22:16:23	save	Infalliball		Brett Taylor
+    2007-8-31 22:16:43	save	Infalliball		Brett Taylor
+    2007-8-31 22:17:56	save	Infalliball		Brett Taylor
+    2007-8-31 22:18:36	save	Infalliball		Brett Taylor
+    2007-8-31 22:20:27	save	Infalliball		Brett Taylor
+    2007-8-31 22:21:43	save	Infalliball		Brett Taylor
+    2007-8-31 22:22:34	save	Infalliball		Brett Taylor
+    2007-8-31 22:22:44	save	Infalliball		Brett Taylor
+    2007-8-31 22:22:57	save	Infalliball		Brett Taylor
+    2007-8-31 22:24:46	save	Infalliball		Brett Taylor
+    2007-8-31 22:25:10	save	Infalliball		Brett Taylor
+    2007-8-31 22:25:48	save	Infalliball		Brett Taylor
+    2007-8-31 22:28:05	save	Infalliball		Brett Taylor
+    2007-8-31 22:29:14	save	Infalliball2		Brett Taylor
+    2007-8-31 22:30:07	save	Infalliball2		Brett Taylor
+    2007-8-31 22:31:00	save	Infalliball2		Brett Taylor
+    2007-8-31 22:31:43	save	Infalliball2		Brett Taylor
+    2007-8-31 22:32:28	save	Infalliball2		Brett Taylor
+    2007-8-31 22:32:44	save	Infalliball2		Brett Taylor
+    2007-8-31 22:34:35	save	Infalliball2		Brett Taylor
+    2007-8-31 22:36:22	save	Infalliball2		Brett Taylor
+    2007-8-31 22:36:39	save	Infalliball2		Brett Taylor
+    2007-8-31 22:37:01	save	Infalliball2		Brett Taylor
+    2007-8-31 22:40:28	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:42:59	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:43:47	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:44:17	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:44:30	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:44:39	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:46:39	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:46:55	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:47:18	save	Brett's Gravity Marble		Brett Taylor
+    2007-8-31 22:47:58	share	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:48:42	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:48:46	share	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:52:13	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:53:10	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:53:45	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:54:08	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:54:58	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:55:26	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:55:47	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:56:10	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 22:56:40	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:03:08	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:04:54	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:05:40	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:07:32	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:07:53	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:08:15	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:09:32	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:10:05	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:11:13	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:12:07	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:12:22	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:12:46	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:13:17	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:13:26	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:14:39	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:15:00	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-8-31 23:15:59	save	Brett's Gravity Marble	batzerk	Brett Taylor
+    2007-9-1 14:32:22	save	Brett's Gravity Marble		
+    2007-9-1 15:24:06	save	Brett's Gravity Marble		
+    2007-9-1 15:24:49	save	Brett's Gravity Marble		
+    2007-9-1 15:26:04	save	Brett's Gravity Marble		
+    2007-9-1 15:26:27	save	Brett's Gravity Marble		
+    2007-9-1 15:27:13	save	Brett's Gravity Marble		
+    2007-9-1 15:28:18	save	Brett's Gravity Marble		
+    2007-9-1 15:28:52	save	Brett's Gravity Marble		
+    2007-9-2 15:09:20	save	Brett's Gravity Marble	batzerk	batzerk
+    2007-9-2 15:09:48	save	Brett's Gravity Marble	batzerk	batzerk
+    2007-9-3 15:48:54	save	Brett's Gravity Marble		
+    2007-9-3 15:49:05	save	Brett's Gravity Marble		
+    2007-9-3 15:51:24	save	Brett's Gravity Marble		
+    2007-9-6 20:35:41	save	U-Da-Bomb		
+    2007-9-6 20:38:13	save	U-Da-Bomb		
+    2007-9-6 22:48:06	save	U-Da-Bomb		
+    2007-9-29 20:22:49	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 20:23:01	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:09:30	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:10:30	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:13:01	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:13:45	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:15:02	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:40:16	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:42:34	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:43:39	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:44:12	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:45:30	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:46:47	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:48:39	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:49:39	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:53:57	save	U-Da-Bomb2		Brett Taylor
+    2007-9-29 21:54:05	save	U-Da-Bomb3		Brett Taylor
+    2007-9-29 21:59:10	save	U-Da-Bomb4		Brett Taylor
+    2007-9-29 22:00:10	save	U-Da-Bomb4		Brett Taylor
+    2007-9-29 22:01:57	save	U-Da-Bomb4		Brett Taylor
+    2007-9-29 22:02:19	save	U-Da-Bomb4		Brett Taylor
+    2007-9-29 22:02:25	save	U-Da-Bomb5		Brett Taylor
+    2007-9-29 22:03:30	save	U-Da-Bomb5		Brett Taylor
+    2007-9-29 22:05:00	save	U-Da-Bomb5		Brett Taylor
+    2007-9-29 22:05:44	save	U-Da-Bomb5		Brett Taylor
+    2007-9-29 22:06:38	save	U-Da-Bomb5		Brett Taylor
+    2007-9-29 22:07:40	save	U-Da-Bomb5		Brett Taylor
+    2007-10-4 17:11:30	save	U-Da-Bomb5		
+    2007-10-4 17:12:38	save	U-Da-Bomb5		
+    2007-10-4 17:13:48	save	U-Da-Bomb5		
+    2007-10-4 17:53:57	save	U-Da-Bomb6		Brett Taylor
+    2007-10-4 17:54:34	save	U-Da-Bomb6		Brett Taylor
+    2007-10-4 17:55:07	save	Click-and-Drag Bungee!1		Brett Taylor
+    2007-10-4 18:08:21	save	Click-and-Drag Bungee!1		Brett Taylor
+    2007-10-4 18:09:16	save	Click-and-Drag Bungee!1		Brett Taylor
+    2007-10-4 18:28:18	save	Click-and-Drag Bungee!1		Brett Taylor
+    2007-10-4 18:31:15	save	Click-and-Drag Bungee!1		Brett Taylor
+    2007-10-4 18:31:21	save	Click-and-Drag Bungee!2		Brett Taylor
+    2007-10-4 18:32:27	save	Click-and-Drag Bungee!2		Brett Taylor
+    2007-10-4 18:36:17	save	Click-and-Drag Bungee!2		Brett Taylor
+    2007-10-4 18:36:54	save	Click-and-Drag Bungee!2		Brett Taylor
+    2007-10-4 18:38:46	save	Click-and-Drag Bungee!3		Brett Taylor
+    2007-10-4 18:40:42	save	Click-and-Drag Bungee!3		Brett Taylor
+    2007-10-4 18:43:37	save	Click-and-Drag Bungee!3		Brett Taylor
+    2007-10-4 18:44:58	save	Click-and-Drag Bungee!3		Brett Taylor
+    2007-10-4 23:19:16	save	Click-and-Drag Bungee!4		Brett Taylor
+    2007-10-4 23:20:33	save	Click-and-Drag Bungee!4		Brett Taylor
+    2007-10-4 23:21:30	save	Click-and-Drag Bungee!4		Brett Taylor
+    2007-10-4 23:30:54	save	Click-and-Drag Bungee!4		Brett Taylor
+    2007-10-4 23:32:05	save	Click-and-Drag Bungee!4		Brett Taylor
+    2007-10-4 23:40:10	save	Click-and-Drag Bungee!5		Brett Taylor
+    2007-10-4 23:44:30	save	Click-and-Drag Bungee!5		Brett Taylor
+    2007-10-4 23:44:35	save	Click-and-Drag Bungee!6		Brett Taylor
+    2007-10-4 23:44:51	save	Click-and-Drag Bungee!6		Brett Taylor
+    2007-10-4 23:47:51	save	Click-and-Drag Bungee!6		Brett Taylor
+    2007-10-4 23:47:57	save	Click-and-Drag Bungee!7		Brett Taylor
+    2007-10-4 23:48:22	save	Click-and-Drag Bungee!7		Brett Taylor
+    2007-10-4 23:49:06	save	Click-and-Drag Bungee!7		Brett Taylor
+    2007-10-4 23:50:14	save	Click-and-Drag Bungee!7		Brett Taylor
+    2007-10-4 23:50:20	save	Click-and-Drag Bungee!7		Brett Taylor
+    2007-10-4 23:59:36	save	Click-and-Drag Bungee!8	batzerk	batzerk
+    2007-10-5 00:02:05	save	Click-and-Drag Bungee!8	batzerk	batzerk
+    2007-10-5 00:04:24	save	Click-and-Drag Bungee!8	batzerk	batzerk
+    2007-10-5 00:08:10	save	Click-and-Drag Bungee!8	batzerk	batzerk
+    2007-10-5 00:09:07	save	Click-and-Drag Bungee!9	batzerk	batzerk
+    2007-10-5 00:11:20	save	Click-and-Drag Bungee!9	batzerk	batzerk
+    2007-10-5 00:14:12	save	Click-and-Drag Bungee!9	batzerk	batzerk
+    2007-10-5 00:18:14	save	Click-and-Drag Bungee!9	batzerk	batzerk
+    2007-10-5 00:20:46	save	Click-and-Drag Bungee!9	batzerk	batzerk
+    2007-10-5 00:22:31	save	Click-and-Drag Bungee!9	batzerk	batzerk
+    2007-10-5 00:25:02	save	Click-and-Drag Bungee!10	batzerk	batzerk
+    2007-10-5 00:28:26	save	Click-and-Drag Bungee!10	batzerk	batzerk
+    2007-10-5 00:28:58	save	Click-and-Drag Bungee!10	batzerk	batzerk
+    2007-10-5 00:33:44	save	Click-and-Drag Bungee!10	batzerk	batzerk
+    2007-10-5 00:36:05	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:36:59	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:47:55	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:48:34	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:49:15	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:49:30	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:50:02	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:51:22	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:51:40	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:54:25	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:55:23	save	Click-and-Drag Bungee!11	batzerk	batzerk
+    2007-10-5 00:55:40	save	Click-and-Drag Bungee!12	batzerk	batzerk
+    2007-10-5 01:01:19	save	Click-and-Drag Bungee!12	batzerk	batzerk
+    2007-10-5 01:01:25	save	Click-and-Drag Bungee!13	batzerk	batzerk
+    2007-10-5 01:03:38	save	Click-and-Drag Bungee!13	batzerk	batzerk
+    2007-10-5 01:04:40	save	Click-and-Drag Bungee!13	batzerk	batzerk
+    2007-10-5 01:04:57	save	Click-and-Drag Bungee!13	batzerk	batzerk
+    2007-10-5 01:06:48	save	Click-and-Drag Bungee!13	batzerk	batzerk
+    2007-10-5 02:05:54	save	Click-and-Drag Bungee!14	batzerk	batzerk
+    2007-10-5 02:08:29	save	Click-and-Drag Bungee!14	batzerk	batzerk
+    2007-10-5 02:09:37	save	Click-and-Drag Bungee!14	batzerk	batzerk
+    2007-10-5 02:10:07	save	Click-and-Drag Bungee!14	batzerk	batzerk
+    2007-10-5 18:52:43	save	Click-and-Drag Bungee!14		Brett Taylor
+    2007-10-5 18:54:51	save	Click-and-Drag Bungee!15		Brett Taylor
+    2007-10-5 18:56:16	save	Click-and-Drag Bungee!15		Brett Taylor
+    2007-10-5 18:57:56	save	Click-and-Drag Bungee!16		Brett Taylor
+    2007-10-5 19:00:13	save	Click-and-Drag Bungee!16		Brett Taylor
+    2007-10-5 19:00:28	save	Click-and-Drag Bungee!16		Brett Taylor
+    2007-10-5 19:03:18	save	Click-and-Drag Bungee!17		Brett Taylor
+    2007-10-5 19:04:05	save	Click-and-Drag Bungee!17		Brett Taylor
+    2007-10-5 19:05:56	save	Click-and-Drag Bungee!17		Brett Taylor
+    2007-10-5 19:07:42	save	Click-and-Drag Bungee!17		Brett Taylor
+    2007-10-5 19:09:47	save	Click-and-Drag Bungee!17		Brett Taylor
+    2007-10-5 19:10:22	save	Click-and-Drag Bungee!17		Brett Taylor
+    2007-10-5 19:10:49	save	Click-and-Drag Bungee!17		Brett Taylor
+    2007-10-5 19:24:19	save	Click-and-Drag Bungee!17	batzerk	Brett Taylor
+    2007-10-5 19:28:52	share	Click-and-Drag Bungee Balls!	batzerk	batzerk
+    2007-10-5 21:02:24	save	3D Click-and-Drag Bungee	batzerk	batzerk
+    2007-10-5 21:24:08	save	3D Click-and-Drag Bungee2	batzerk	batzerk
+    2007-10-5 21:25:23	save	3D Click-and-Drag Bungee2	batzerk	batzerk
+    2007-10-5 21:25:28	save	3D Click-and-Drag Bungee2	batzerk	batzerk
+    2007-10-5 21:28:30	save	3D Click-and-Drag Bungee3	batzerk	batzerk
+    2007-10-5 21:28:33	save	3D Click-and-Drag Bungee3	batzerk	batzerk
+    2007-10-5 21:30:26	save	3D Click-and-Drag Bungee3	batzerk	batzerk
+    2007-10-5 21:30:52	save	3D Click-and-Drag Bungee3	batzerk	batzerk
+    2007-10-5 21:31:14	save	3D Click-and-Drag Bungee (v2)	batzerk	batzerk
+    2007-10-5 21:35:02	save	3D Click-and-Drag Bungee (v2)	batzerk	batzerk
+    2007-10-5 21:35:21	save	3D Click-and-Drag Bungee (v2)	batzerk	batzerk
+    2007-10-5 21:35:53	save	3D Click-and-Drag Bungee (v2)	batzerk	batzerk
+    2007-10-5 21:36:08	save	3D Click-and-Drag Bungee (v2)	batzerk	batzerk
+    2007-10-5 21:37:20	save	3D Click-and-Drag Bungee (v2)2	batzerk	batzerk
+    2007-10-5 21:38:35	save	3D Click-and-Drag Bungee (v2)3	batzerk	batzerk
+    2007-10-5 21:39:40	save	3D Click-and-Drag Bungee (v2)4	batzerk	batzerk
+    2007-10-5 21:41:53	save	3D Click-and-Drag Bungee (v2)4	batzerk	batzerk
+    2007-10-5 21:44:42	save	3D Click-and-Drag Bungee (v2)5	batzerk	batzerk
+    2007-10-5 21:45:46	save	3D Click-and-Drag Bungee (v2)5	batzerk	batzerk
+    2007-10-5 21:49:41	save	3D Click-and-Drag Bungee (v3)	batzerk	batzerk
+    2007-10-5 21:53:27	save	3D Click-and-Drag Bungee (v3)	batzerk	batzerk
+    2007-10-5 21:55:15	save	3D Click-and-Drag Bungee (v3)	batzerk	batzerk
+    2007-10-5 21:58:39	save	3D Click-and-Drag Bungee (v3)2	batzerk	batzerk
+    2007-10-5 22:01:57	save	3D Click-and-Drag Bungee (v3)3	batzerk	batzerk
+    2007-10-5 22:03:39	save	3D Click-and-Drag Bungee (v3)3	batzerk	batzerk
+    2007-10-5 22:05:44	save	3D Click-and-Drag Bungee (v3)4	batzerk	batzerk
+    2007-10-5 22:07:15	save	3D Click-and-Drag Bungee (v3)4	batzerk	batzerk
+    2007-11-19 12:00:23	save	3D Click-and-Drag Bungee (v4)1		Brett Taylor
+    2007-11-19 12:05:37	save	3D Click-and-Drag Bungee (v4)1		Brett Taylor
+    2007-11-19 12:06:10	save	3D Click-and-Drag Bungee (v4)2		Brett Taylor
+    2007-11-19 12:09:59	share	3D Click-and-Drag Bungee (v4)2	batzerk	Brett Taylor
+    2007-11-20 09:01:01	save	3D Click-and-Drag Bungee (v4)2-3		Brett Taylor
+    2007-11-20 09:01:23	save	3D Click-and-Drag Bungee (v4)2-3		Brett Taylor
+    2007-11-20 09:03:30	save	3D Click-and-Drag Bungee (v4)2-3		Brett Taylor
+    2007-11-20 09:07:36	save	3D Click-and-Drag Bungee (v4)2-3		Brett Taylor
+    2007-11-20 09:08:02	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:09:34	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:16:18	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:19:09	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:21:03	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:23:08	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:23:39	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:24:35	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:27:43	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:28:21	save	3D Click-and-Drag Bungee (v4) (wshad.)		Brett Taylor
+    2007-11-20 09:28:27	save	3D Click-and-Drag Bungee (v4) (wshad.)2		Brett Taylor
+    2007-11-20 09:30:40	save	3D Click-and-Drag Bungee (v4) (wshad.)2		Brett Taylor
+    2007-11-20 09:31:04	save	3D Click-and-Drag Bungee (v4) (wshad.)2		Brett Taylor
+    2007-11-20 09:32:51	save	3D Click-and-Drag Bungee (v4) (wshad.)2		Brett Taylor
+    2007-11-20 09:33:40	save	3D Click-and-Drag Bungee (v4) (wshad.)2		Brett Taylor
+    2007-11-20 09:33:45	save	3D Click-and-Drag Bungee (v4) (wshad.)3		Brett Taylor
+    2007-11-20 09:35:11	save	3D Click-and-Drag Bungee (v4) (wshad.)3		Brett Taylor
+    2007-11-20 09:35:30	save	3D Click-and-Drag Bungee (v4) (wshad.)3		Brett Taylor
+    2007-11-20 09:35:36	save	3D Click-and-Drag Bungee (v4) (wshad.)4		Brett Taylor
+    2007-11-20 09:37:54	save	3D Click-and-Drag Bungee (v4) (wshad.)4		Brett Taylor
+    2007-11-20 09:40:38	save	3D Click-and-Drag Bungee (v4) (wshad.)4		Brett Taylor
+    2007-11-20 09:41:25	save	3D Click-and-Drag Bungee (v4) (wshad.)5		Brett Taylor
+    2007-11-20 09:43:39	save	3D Click-and-Drag Bungee (v4) (wshad.)5		Brett Taylor
+    2007-11-20 09:44:10	save	3D Click-and-Drag Bungee (v4) (wshad.)5		Brett Taylor
+    2007-11-20 09:47:12	save	3D Click-and-Drag Bungee (v4) (wshad.)5		Brett Taylor
+    2007-11-20 10:08:56	save	3D Click-and-Drag Bungee (v4) (wshad.)5		Brett Taylor
+    2007-11-20 10:09:49	save	3D Click-and-Drag Bungee (v6) (wshad.)5		Brett Taylor
+    2007-11-20 10:15:11	save	3D Click-and-Drag Bungee (v6) (wshad.)5		Brett Taylor
+    2007-11-20 10:17:24	save	3D Click-and-Drag Bungee (v6) (wshad.)5		Brett Taylor
+    2007-11-20 10:19:01	save	3D Click-and-Drag Bungee (v6) (wshad.)5		Brett Taylor
+    2007-11-20 10:19:17	save	3D Click-and-Drag Bungee (v7) (wshad.)1		Brett Taylor
+    2007-11-20 10:20:26	save	3D Click-and-Drag Bungee (v7) (wshad.)1		Brett Taylor
+    2007-11-20 10:27:33	save	3D Click-and-Drag Bungee (v7) (wshad.)1		Brett Taylor
+    2007-11-20 10:27:57	save	3D Click-and-Drag Bungee (v7) (wshad.)1		Brett Taylor
+    2007-11-20 10:28:53	save	3D Click-and-Drag Bungee (v7) (wshad.)1		Brett Taylor
+    2007-11-20 10:29:19	save	3D Click-and-Drag Bungee (v7) (wshad.)2		Brett Taylor
+    2007-11-20 10:32:38	save	3D Click-and-Drag Bungee (v7) (wshad.)3		Brett Taylor
+    2007-11-20 10:33:44	save	3D Click-and-Drag Bungee (v7) (wshad.)3		Brett Taylor
+    2007-11-20 10:34:23	save	3D Click-and-Drag Bungee (v8) (wshad.)1		Brett Taylor
+    2007-11-20 10:39:36	save	3D Click-and-Drag Bungee (v8) (wshad.)2		Brett Taylor
+    2007-11-20 10:40:06	save	3D Click-and-Drag Bungee (v8) (wshad.)2		Brett Taylor
+    2007-11-20 10:41:02	save	3D Click-and-Drag Bungee (v8) (wshad.)2		Brett Taylor
+    2007-11-20 10:41:16	save	3D Click-and-Drag Bungee (v8) (wshad.)2		Brett Taylor
+    2007-11-20 10:43:14	save	3D Click-and-Drag Bungee (v8) (wshad.)2		Brett Taylor
+    2007-11-20 10:49:21	save	3D Click-and-Drag Bungee (v8) (wshad.)3		Brett Taylor
+    2007-11-20 10:50:28	save	3D Click-and-Drag Bungee (v8) (wshad.)3		Brett Taylor
+    2007-11-20 10:58:06	save	3D Click-and-Drag Bungee (v8) (wshad.)4		Brett Taylor
+    2007-11-20 10:59:24	save	3D Click-and-Drag Bungee (v8) (wshad.)4		Brett Taylor
+    2007-11-20 11:03:04	save	3D Click-and-Drag Bungee (v8) (wshad.)4		Brett Taylor
+    2007-11-20 11:04:18	save	3D Click-and-Drag Bungee (v8) (wshad.)5		Brett Taylor
+    2007-11-20 11:05:05	save	3D Click-and-Drag Bungee (v8) (wshad.)5		Brett Taylor
+    2007-11-20 11:09:26	save	3D Click-and-Drag Bungee (v8) (wshad.)5		Brett Taylor
+    2007-11-20 11:09:39	save	3D Click-and-Drag Bungee (v9) (wshad.)1		Brett Taylor
+    2007-11-20 11:12:01	save	3D Click-and-Drag Bungee (v9) (wshad.)1		Brett Taylor
+    2007-11-20 11:13:15	save	3D Click-and-Drag Bungee (v9) (wshad.)1		Brett Taylor
+    2007-11-20 11:14:07	share	3D Click-and-Drag Bungee (v9) (wshad.)1	batzerk	Brett Taylor
+    2007-11-20 16:51:30	save	3D_Click-and-Drag_Bungee_(v9)_(wshad.)1		
+    2007-11-20 16:53:04	save	3-D Click-and-Drag Bungee (v10)1		Brett Taylor
+    2007-11-20 16:59:00	save	3-D Click-and-Drag Bungee (v10)1		Brett Taylor
+    2007-11-20 17:03:29	save	3-D Click-and-Drag Bungee (v10)2		Brett Taylor
+    2007-11-20 17:05:57	save	3-D Click-and-Drag Bungee (v10)2		Brett Taylor
+    2007-11-20 17:08:30	save	3-D Click-and-Drag Bungee (v10)2		Brett Taylor
+    2007-11-20 17:11:51	save	3-D Click-and-Drag Bungee (v10)3		Brett Taylor
+    2007-11-20 17:13:06	save	3-D Click-and-Drag Bungee (v10)3		Brett Taylor
+    2007-11-20 17:13:58	save	3-D Click-and-Drag Bungee (v10)3		Brett Taylor
+    2007-11-20 17:18:20	save	3-D Click-and-Drag Bungee (v10)4		Brett Taylor
+    2007-11-20 17:18:53	save	3-D Click-and-Drag Bungee (v10)4		Brett Taylor
+    2007-11-20 17:44:05	save	3-D Click-and-Drag Bungee (v10)4		Brett Taylor
+    2007-11-20 17:46:41	save	3-D Click-and-Drag Bungee (v10)4		Brett Taylor
+    2007-11-20 17:52:10	save	3-D Click-and-Drag Bungee (v10)5		Brett Taylor
+    2007-11-20 17:52:38	save	3-D Click-and-Drag Bungee (v10)5		Brett Taylor
+    2007-11-20 17:54:36	save	3-D Click-and-Drag Bungee (v10)5		Brett Taylor
+    2007-11-20 17:58:22	save	3-D Click-and-Drag Bungee (v10)5		Brett Taylor
+    2007-11-20 18:29:17	save	3-D Click-and-Drag Bungee (v10)6		Brett Taylor
+    2007-11-20 18:31:25	save	3-D Click-and-Drag Bungee (v10)6		Brett Taylor
+    2007-11-20 18:35:16	save	3-D Click-and-Drag Bungee (v11)		Brett Taylor
+    2007-11-20 18:38:37	save	3-D Click-and-Drag Bungee (v11)		Brett Taylor
+    2007-11-20 18:40:33	save	3-D Click-and-Drag Bungee (v11)		Brett Taylor
+    2007-11-20 18:42:18	save	3-D Click-and-Drag Bungee (v11)		Brett Taylor
+    2007-11-20 19:12:56	save	3-D Click-and-Drag Bungee (v11)		Brett Taylor
+    2007-11-20 19:13:43	share	3-D Click-and-Drag Bungee (v11)	batzerk	Brett Taylor
+    2007-11-20 19:23:50	save	3-D Click-and-Drag Bungee (v11)	batzerk	Brett Taylor
+    2007-11-20 19:27:37	save	3-D Click-and-Drag Bungee (v11)2	batzerk	batzerk
+    2007-11-20 19:28:17	save	3-D Click-and-Drag Bungee (v11)2	batzerk	batzerk
+    2007-11-20 19:29:33	save	3-D Click-and-Drag Bungee (v11)2	batzerk	batzerk
+    2007-11-20 19:30:06	share	3-D Click-and-Drag Bungee (v11)2	batzerk	batzerk
+
+Totals: 
+    Sprites: 5
+    Stacks: 20
+    Unique costumes: 8
+    Unique sounds: 4
+--------
+Sprite: Stage
+  Costumes (3):
+    White (480x360)
+    Dark gray (480x360)
+    Light gray (480x360)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (5):
+    when up arrow key pressed
+        change "Gravity" by 25
+        wait until (not (key "up arrow" pressed?))
+        change "Gravity" by -25
+    end
+
+    when green flag clicked
+    end
+
+    when green flag clicked
+        switch to background "background2"
+    end
+
+    when space key pressed
+        next background
+        clear
+    end
+
+    set "distance" to 100
+    forever  
+        set "distance" to (((distance) + (((((Ball 1's x position) - (Ball 2's x position)) * ((Ball 1's x position) - (Ball 2's x position))) + ((((Ball 1's y position) - (Ball 2's y position)) * ((Ball 1's y position) - (Ball 2's y position))) + (((Ball 1's z position) - (Ball 2's z position)) * ((Ball 1's z position) - (Ball 2's z position))))) / (distance))) / 2)
+--------
+Sprite: Red Ball
+  Costumes (1):
+    Red(dish) (84x84)
+  Sounds (2):
+    pop (0:00:00)
+    Whale Bay (0:01:58)
+  Stacks (4):
+    when green flag clicked
+        forever  
+            if ((abs (x position)) > 237) 
+                set "x velocity" to ((x velocity) * -1)
+            if ((abs (y position)) > 178) 
+                set "y velocity" to ((y velocity) * -1)
+            if ((Ball 1's z position) < 0) 
+                set "z velocity" to ((z velocity) * -1)
+                set "Ball 1's z position" to 0
+            if ((Ball 1's z position) > 400) 
+                set "z velocity" to ((z velocity) * -1)
+                set "Ball 1's z position" to 400
+            if ((Ball 1's z position) > (Ball 2's z position)) 
+                go to front
+    end
+
+    when green flag clicked
+        go to x: -150 y: -20
+        set "Ball 1's z position" to 50
+        set "x velocity" to 0
+        set "y velocity" to 0
+        set "z velocity" to 5
+        set "x1" to -150
+        set "y1" to -20
+        go to front
+        clear graphic effects
+        show
+        forever  
+            change "x velocity" by ((((Ball 2's x position) - (x position)) / 2000) * (Elasticity))
+            change "y velocity" by ((((Ball 2's y position) - (y position)) / 2000) * (Elasticity))
+            change "z velocity" by (((((Ball 2's z position) - (Ball 1's z position)) / 2000) * (Elasticity)) - ((Gravity) / 10))
+            set "x velocity" to ((x velocity) * (1 - ((Friction) / 300)))
+            set "y velocity" to ((y velocity) * (1 - ((Friction) / 300)))
+            set "z velocity" to ((z velocity) * (1 - ((Friction) / 300)))
+            change x by (x velocity)
+            change y by (y velocity)
+            change "Ball 1's z position" by (z velocity)
+            set size to (((Ball 1's z position) / 2.4) + 40)%
+            if (((mouse down?) and ((distance to s[ ] ) < 30)) and (((Already clicked)) = 0)) 
+                set "(Already clicked)" to 1
+                set "x velocity" to 0
+                set "y velocity" to 0
+                set "z velocity" to 0
+                set "Ball 1's z position" to 200
+                set "ghost" effect to 20
+                set size to (((Ball 1's z position) / 2.4) + 40)%
+                repeat until (not (mouse down?))  
+                    set "x1" to (x position)
+                    set "y1" to (y position)
+                    go to s[ ]
+                    set "x velocity" to (((x position) - (x1)) / 1.5)
+                    set "y velocity" to (((y position) - (y1)) / 1.5)
+                set "ghost" effect to 0
+                set "(Already clicked)" to 0
+    end
+
+    when green flag clicked
+        forever  
+            set "Ball 1's x position" to (x position)
+            set "Ball 1's y position" to (y position)
+    end
+
+    when r key pressed
+        go to x: -150 y: -20
+        set "Ball 1's z position" to 50
+    end
+--------
+Sprite: Orange Ball
+  Costumes (1):
+    Orange(ish) (84x84)
+  Sounds (2):
+    pop (0:00:00)
+    Whale Bay (0:01:58)
+  Stacks (4):
+    when green flag clicked
+        forever  
+            set "Ball 2's x position" to (x position)
+            set "Ball 2's y position" to (y position)
+    end
+
+    when r key pressed
+        go to x: 150 y: 10
+        set "Ball 2's z position" to 40
+    end
+
+    when green flag clicked
+        go to x: 150 y: 10
+        set "Ball 2's z position" to 40
+        set "y velocity" to 0
+        set "x velocity" to 0
+        set "z velocity" to -2
+        set "x1" to 150
+        set "y1" to 10
+        go to front
+        clear graphic effects
+        show
+        forever  
+            change "x velocity" by ((((Ball 1's x position) - (x position)) / 2000) * (Elasticity))
+            change "y velocity" by ((((Ball 1's y position) - (y position)) / 2000) * (Elasticity))
+            change "z velocity" by (((((Ball 1's z position) - (Ball 2's z position)) / 2000) * (Elasticity)) - ((Gravity) / 10))
+            set "x velocity" to ((x velocity) * (1 - ((Friction) / 300)))
+            set "y velocity" to ((y velocity) * (1 - ((Friction) / 300)))
+            set "z velocity" to ((z velocity) * (1 - ((Friction) / 300)))
+            change x by (x velocity)
+            change y by (y velocity)
+            change "Ball 2's z position" by (z velocity)
+            set size to (((Ball 2's z position) / 2.4) + 40)%
+            if (((mouse down?) and ((distance to s[mouse-pointer] ) < 30)) and (((Already clicked)) = 0)) 
+                set "(Already clicked)" to 1
+                set "x velocity" to 0
+                set "y velocity" to 0
+                set "z velocity" to 0
+                set "Ball 2's z position" to 200
+                set "ghost" effect to 20
+                set size to (((Ball 2's z position) / 2.4) + 40)%
+                repeat until (not (mouse down?))  
+                    set "x1" to (x position)
+                    set "y1" to (y position)
+                    go to s[mouse-pointer]
+                    set "x velocity" to (((x position) - (x1)) / 1.5)
+                    set "y velocity" to (((y position) - (y1)) / 1.5)
+                set "ghost" effect to 0
+                set "(Already clicked)" to 0
+    end
+
+    when green flag clicked
+        forever  
+            if ((abs (x position)) > 239) 
+                set "x velocity" to ((x velocity) * -1)
+            if ((abs (y position)) > 179) 
+                set "y velocity" to ((y velocity) * -1)
+            if ((Ball 2's z position) < 0) 
+                set "z velocity" to ((z velocity) * -1)
+                set "Ball 2's z position" to 0
+            if ((Ball 2's z position) > 400) 
+                set "z velocity" to ((z velocity) * -1)
+                set "Ball 2's z position" to 400
+            if ((Ball 2's z position) > (Ball 1's z position)) 
+                go to front
+    end
+--------
+Sprite: Red Ball Shadow
+  Costumes (1):
+    Shadow (34x40)
+  Sounds (2):
+    pop (0:00:00)
+    Whale Bay (0:01:58)
+  Stacks (2):
+    when green flag clicked
+        forever  
+            if (((abs (x position)) > 240) or ((abs (y position)) > 180)) else 
+                hide
+            else
+                show
+    end
+
+    when green flag clicked
+        go to x: -150 y: -20
+        point in direction 110
+        set "ghost" effect to 50
+        show
+        forever  
+            set "ghost" effect to (((Ball 1's z position) / 3) + 60)
+            set size to ((Ball 1's z position) + 100)%
+            set x to ((Ball 1's x position) - ((Ball 1's z position) * 1.4))
+            set y to ((Ball 1's y position) - ((Ball 1's z position) * 2))
+    end
+--------
+Sprite: Orange Ball Shadow
+  Costumes (1):
+    Shadow (34x40)
+  Sounds (2):
+    pop (0:00:00)
+    Whale Bay (0:01:58)
+  Stacks (2):
+    when green flag clicked
+        forever  
+            if (((abs (x position)) > 239) or ((abs (y position)) > 179)) else 
+                hide
+            else
+                show
+    end
+
+    when green flag clicked
+        go to x: -150 y: -20
+        point in direction 110
+        set "ghost" effect to 50
+        show
+        forever  
+            set "ghost" effect to (((Ball 2's z position) / 3) + 60)
+            set size to ((Ball 2's z position) + 100)%
+            set x to ((Ball 2's x position) - ((Ball 2's z position) * 1.4))
+            set y to ((Ball 2's y position) - ((Ball 2's z position) * 2))
+    end
+--------
+Sprite: Pen Thing
+  Costumes (1):
+    dot (1x1)
+  Sounds (1):
+    pop (0:00:00)
+  Stacks (3):
+    when b key pressed
+        if ((BAND?) = 0) 
+            set "BAND?" to 1
+            stop script
+        if ((BAND?) = 1) 
+            set "BAND?" to 0
+            clear
+            stop script
+    end
+
+    when green flag clicked
+        hide
+        clear
+        set pen color to c[FAF100]
+        go to x: 150 y: 170
+        set "z position" to 40
+        clear graphic effects
+        set "BAND?" to 1
+        set "Stamp?" to 1
+        set "Friction" to 5
+        set "Gravity" to 10
+        set "Elasticity" to 10
+        set "(Already clicked)" to 0
+        forever if ((BAND?) = 1)  
+            go to s[ ]
+            set "z position" to (Ball 1's z position)
+            set pen size to ((z position) / 10)
+            pen down
+            clear
+            go to x: ((x position) + (((Ball 2's x position) - (x position)) / 16)) y: ((y position) + (((Ball 2's y position) - (y position)) / 16))
+            change "z position" by (((Ball 2's z position) - (z position)) / 16)
+            set pen size to ((z position) / 10)
+            go to x: ((x position) + (((Ball 2's x position) - (x position)) / 8)) y: ((y position) + (((Ball 2's y position) - (y position)) / 8))
+            change "z position" by (((Ball 2's z position) - (z position)) / 8)
+            set pen size to ((z position) / 10)
+            go to x: ((x position) + (((Ball 2's x position) - (x position)) / 4)) y: ((y position) + (((Ball 2's y position) - (y position)) / 4))
+            change "z position" by (((Ball 2's z position) - (z position)) / 4)
+            set pen size to ((z position) / 10)
+            go to x: ((x position) + (((Ball 2's x position) - (x position)) / 2)) y: ((y position) + (((Ball 2's y position) - (y position)) / 2))
+            change "z position" by (((Ball 2's z position) - (z position)) / 2)
+            set pen size to ((z position) / 10)
+            go to x: (Ball 2's x position) y: (Ball 2's y position)
+            change "z position" by ((Ball 2's z position) - (z position))
+            pen up
+    end
+
+    when c key pressed
+        clear
+    end
+
+--------
