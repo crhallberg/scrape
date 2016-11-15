@@ -2,7 +2,7 @@
 
 A tool for analyzing [Scratch](https://scratch.mit.edu) projects / A learning experience.
 
-## Scratch 2.0 File Format
+## [Scratch 2.0 File Format](https://wiki.scratch.mit.edu/wiki/Scratch_File_Format_\(2.0\))
 
 The new Scratch file format is a zip-compressed json file. You can see the example [.sb2 file here](./examples/learning_ai.sb2) and the [upzipped .sb2 file here](./examples/learning_ai.json). These files correspond to [this online Scratch project](https://scratch.mit.edu/projects/124636317/#editor).
 
