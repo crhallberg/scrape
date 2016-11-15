@@ -1,0 +1,1236 @@
+﻿{
+	"objName": "Stage",
+	"variables": [
+		{
+			"name": "DEATHS",
+			"value": 19,
+			"isPersistent": false
+		},
+		{
+			"name": "SURVIVALS",
+			"value": 92,
+			"isPersistent": false
+		},
+		{
+			"name": "IQ",
+			"value": 25,
+			"isPersistent": false
+		},
+		{
+			"name": "Penalty",
+			"value": 0,
+			"isPersistent": false
+		},
+		{
+			"name": "Reward",
+			"value": 1,
+			"isPersistent": false
+		}
+	],
+	"scripts": [
+		[
+			29,
+			15,
+			[
+				[
+					"whenGreenFlag"
+				],
+				[
+					"timerReset"
+				],
+				[
+					"setVar:to:",
+					"IQ",
+					"0"
+				],
+				[
+					"doForever",
+					[
+						[
+							"doIf",
+							[
+								"<",
+								[
+									"readVariable",
+									"IQ"
+								],
+								[
+									"timer"
+								]
+							],
+							[
+								[
+									"setVar:to:",
+									"IQ",
+									[
+										"rounded",
+										[
+											"timer"
+										]
+									]
+								]
+							]
+						]
+					]
+				]
+			]
+		],
+		[
+			32,
+			244,
+			[
+				[
+					"playSound:",
+					"Learning AI Voic"
+				]
+			]
+		]
+	],
+	"sounds": [
+		{
+			"soundName": "pop",
+			"soundID": -1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		},
+		{
+			"soundName": "Learning AI Voic",
+			"soundID": -1,
+			"md5": "daa5c169bc5c7447b1f839d8999866e3.wav",
+			"sampleCount": 483264,
+			"rate": 11025,
+			"format": "adpcm"
+		}
+	],
+	"costumes": [
+		{
+			"costumeName": "background1",
+			"baseLayerID": -1,
+			"baseLayerMD5": "b3791e8995f967b89c329f67d0eaa683.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}
+	],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "a3f9cc4cb715426da8182c52a76e91ab.png",
+	"penLayerID": -1,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [
+		{
+			"objName": "IQ Graph",
+			"scripts": [
+				[
+					20,
+					20,
+					[
+						[
+							"whenGreenFlag"
+						],
+						[
+							"clearPenTrails"
+						],
+						[
+							"putPenUp"
+						],
+						[
+							"gotoX:y:",
+							-240,
+							-179
+						],
+						[
+							"penColor:",
+							-16713648
+						],
+						[
+							"putPenDown"
+						]
+					]
+				],
+				[
+					225,
+					49,
+					[
+						[
+							"whenIReceive",
+							"kittydown"
+						],
+						[
+							"playSound:",
+							"pop"
+						],
+						[
+							"gotoX:y:",
+							[
+								"+",
+								[
+									"xpos"
+								],
+								0.5
+							],
+							[
+								"-",
+								[
+									"/",
+									[
+										"timer"
+									],
+									2
+								],
+								179
+							]
+						],
+						[
+							"changeVar:by:",
+							"DEATHS",
+							1
+						],
+						[
+							"timerReset"
+						]
+					]
+				]
+			],
+			"sounds": [
+				{
+					"soundName": "pop",
+					"soundID": -1,
+					"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+					"sampleCount": 258,
+					"rate": 11025,
+					"format": ""
+				}
+			],
+			"costumes": [
+				{
+					"costumeName": "costume1",
+					"baseLayerID": -1,
+					"baseLayerMD5": "fa6e7e8672c7928a4f46ef592c1d68ff.png",
+					"bitmapResolution": 1,
+					"rotationCenterX": 0,
+					"rotationCenterY": 0
+				}
+			],
+			"currentCostumeIndex": 0,
+			"scratchX": -230.5,
+			"scratchY": -177.6275,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {}
+		},
+		{
+			"objName": "Blue Cat",
+			"variables": [
+				{
+					"name": "jumpWeight",
+					"value": 0.7777777777777778,
+					"isPersistent": false
+				},
+				{
+					"name": "Random",
+					"value": 0.6828888888888889,
+					"isPersistent": false
+				},
+				{
+					"name": "Success?",
+					"value": "1",
+					"isPersistent": false
+				},
+				{
+					"name": "shortJumpWeight",
+					"value": 0.05555555555555555,
+					"isPersistent": false
+				},
+				{
+					"name": "turnSuccessCount",
+					"value": 2,
+					"isPersistent": false
+				},
+				{
+					"name": "totalSuccess",
+					"value": 18,
+					"isPersistent": false
+				},
+				{
+					"name": "walkSuccessCount",
+					"value": 1,
+					"isPersistent": false
+				},
+				{
+					"name": "jumpSuccessCount",
+					"value": 14,
+					"isPersistent": false
+				},
+				{
+					"name": "turnWeight",
+					"value": 0.1111111111111111,
+					"isPersistent": false
+				},
+				{
+					"name": "walkWeight",
+					"value": 0.05555555555555555,
+					"isPersistent": false
+				},
+				{
+					"name": "Action",
+					"value": "jump",
+					"isPersistent": false
+				},
+				{
+					"name": "velY",
+					"value": "0",
+					"isPersistent": false
+				},
+				{
+					"name": "shortJumpSuccessCount",
+					"value": 1,
+					"isPersistent": false
+				}
+			],
+			"scripts": [
+				[
+					21,
+					20,
+					[
+						[
+							"procDef",
+							"RUN AI",
+							[],
+							[],
+							false
+						],
+						[
+							"setVar:to:",
+							"walkSuccessCount",
+							"1"
+						],
+						[
+							"setVar:to:",
+							"turnSuccessCount",
+							"1"
+						],
+						[
+							"setVar:to:",
+							"jumpSuccessCount",
+							"1"
+						],
+						[
+							"setVar:to:",
+							"shortJumpSuccessCount",
+							"1"
+						],
+						[
+							"call",
+							"Calculate Weights"
+						],
+						[
+							"setSizeTo:",
+							50
+						],
+						[
+							"heading:",
+							90
+						],
+						[
+							"gotoX:y:",
+							-80,
+							-15
+						],
+						[
+							"setVar:to:",
+							"velY",
+							"0"
+						],
+						[
+							"setVar:to:",
+							"Action",
+							"nothing"
+						],
+						[
+							"doForever",
+							[
+								[
+									"forward:",
+									3
+								],
+								[
+									"changeYposBy:",
+									[
+										"readVariable",
+										"velY"
+									]
+								],
+								[
+									"doIfElse",
+									[
+										"not",
+										[
+											"touchingColor:",
+											-16777208
+										]
+									],
+									[
+										[
+											"changeVar:by:",
+											"velY",
+											-0.5
+										]
+									],
+									[
+										[
+											"ypos:",
+											-27
+										],
+										[
+											"setVar:to:",
+											"velY",
+											"0"
+										]
+									]
+								],
+								[
+									"doIf",
+									[
+										"&",
+										[
+											"touchingColor:",
+											-256
+										],
+										[
+											"=",
+											[
+												"readVariable",
+												"Action"
+											],
+											"nothing"
+										]
+									],
+									[
+										[
+											"setVar:to:",
+											"Random",
+											[
+												"/",
+												[
+													"randomFrom:to:",
+													1,
+													1000
+												],
+												1000
+											]
+										],
+										[
+											"setVar:to:",
+											"Action",
+											"walk"
+										],
+										[
+											"doIfElse",
+											[
+												"<",
+												[
+													"readVariable",
+													"Random"
+												],
+												[
+													"readVariable",
+													"turnWeight"
+												]
+											],
+											[
+												[
+													"turnRight:",
+													180
+												],
+												[
+													"setVar:to:",
+													"Action",
+													"turn"
+												]
+											],
+											[
+												[
+													"changeVar:by:",
+													"Random",
+													[
+														"*",
+														-1,
+														[
+															"readVariable",
+															"turnWeight"
+														]
+													]
+												],
+												[
+													"doIfElse",
+													[
+														"<",
+														[
+															"readVariable",
+															"Random"
+														],
+														[
+															"readVariable",
+															"jumpWeight"
+														]
+													],
+													[
+														[
+															"setVar:to:",
+															"velY",
+															"12"
+														],
+														[
+															"setVar:to:",
+															"Action",
+															"jump"
+														],
+														[
+															"changeYposBy:",
+															10
+														]
+													],
+													[
+														[
+															"changeVar:by:",
+															"Random",
+															[
+																"*",
+																-1,
+																[
+																	"readVariable",
+																	"jumpWeight"
+																]
+															]
+														],
+														[
+															"doIf",
+															[
+																"<",
+																[
+																	"readVariable",
+																	"Random"
+																],
+																[
+																	"readVariable",
+																	"shortJumpWeight"
+																]
+															],
+															[
+																[
+																	"setVar:to:",
+																	"velY",
+																	"5"
+																],
+																[
+																	"setVar:to:",
+																	"Action",
+																	"shortjump"
+																],
+																[
+																	"changeYposBy:",
+																	10
+																]
+															]
+														]
+													]
+												]
+											]
+										]
+									]
+								],
+								[
+									"doIf",
+									[
+										"touching:",
+										"_edge_"
+									],
+									[
+										[
+											"changeVar:by:",
+											"SURVIVALS",
+											1
+										],
+										[
+											"call",
+											"Adjust Weights %n",
+											[
+												"readVariable",
+												"Reward"
+											]
+										],
+										[
+											"turnRight:",
+											180
+										]
+									]
+								],
+								[
+									"doIf",
+									[
+										"touchingColor:",
+										-65536
+									],
+									[
+										[
+											"broadcast:",
+											"kittydown"
+										],
+										[
+											"call",
+											"Adjust Weights %n",
+											[
+												"readVariable",
+												"Penalty"
+											]
+										],
+										[
+											"heading:",
+											90
+										],
+										[
+											"gotoX:y:",
+											-190,
+											0
+										],
+										[
+											"setVar:to:",
+											"velY",
+											"0"
+										]
+									]
+								]
+							]
+						]
+					]
+				],
+				[
+					308,
+					12,
+					[
+						[
+							"whenGreenFlag"
+						],
+						[
+							"setVar:to:",
+							"DEATHS",
+							"0"
+						],
+						[
+							"setVar:to:",
+							"SURVIVALS",
+							"0"
+						],
+						[
+							"comeToFront"
+						],
+						[
+							"doRepeat",
+							4,
+							[
+								[
+									"createCloneOf",
+									"_myself_"
+								]
+							]
+						],
+						[
+							"setGraphicEffect:to:",
+							"color",
+							100
+						],
+						[
+							"call",
+							"RUN AI"
+						]
+					]
+				],
+				[
+					314,
+					254,
+					[
+						[
+							"whenCloned"
+						],
+						[
+							"call",
+							"RUN AI"
+						]
+					]
+				],
+				[
+					438,
+					1700,
+					[
+						[
+							"playSound:",
+							"Pop"
+						]
+					]
+				],
+				[
+					382,
+					598.75,
+					[
+						[
+							"procDef",
+							"Calculate Weights",
+							[],
+							[],
+							true
+						],
+						[
+							"setVar:to:",
+							"totalSuccess",
+							[
+								"+",
+								[
+									"readVariable",
+									"walkSuccessCount"
+								],
+								[
+									"+",
+									[
+										"readVariable",
+										"turnSuccessCount"
+									],
+									[
+										"+",
+										[
+											"readVariable",
+											"jumpSuccessCount"
+										],
+										[
+											"readVariable",
+											"shortJumpSuccessCount"
+										]
+									]
+								]
+							]
+						],
+						[
+							"setVar:to:",
+							"walkWeight",
+							[
+								"/",
+								[
+									"readVariable",
+									"walkSuccessCount"
+								],
+								[
+									"readVariable",
+									"totalSuccess"
+								]
+							]
+						],
+						[
+							"setVar:to:",
+							"turnWeight",
+							[
+								"/",
+								[
+									"readVariable",
+									"turnSuccessCount"
+								],
+								[
+									"readVariable",
+									"totalSuccess"
+								]
+							]
+						],
+						[
+							"setVar:to:",
+							"jumpWeight",
+							[
+								"/",
+								[
+									"readVariable",
+									"jumpSuccessCount"
+								],
+								[
+									"readVariable",
+									"totalSuccess"
+								]
+							]
+						],
+						[
+							"setVar:to:",
+							"shortJumpWeight",
+							[
+								"/",
+								[
+									"readVariable",
+									"shortJumpSuccessCount"
+								],
+								[
+									"readVariable",
+									"totalSuccess"
+								]
+							]
+						]
+					]
+				],
+				[
+					424.15,
+					827.1,
+					[
+						[
+							"procDef",
+							"Adjust Weights %n",
+							[
+								"value"
+							],
+							[
+								1
+							],
+							true
+						],
+						[
+							"doIfElse",
+							[
+								"=",
+								[
+									"readVariable",
+									"Action"
+								],
+								"walk"
+							],
+							[
+								[
+									"changeVar:by:",
+									"walkSuccessCount",
+									[
+										"getParam",
+										"value",
+										"r"
+									]
+								]
+							],
+							[
+								[
+									"doIfElse",
+									[
+										"=",
+										[
+											"readVariable",
+											"Action"
+										],
+										"turn"
+									],
+									[
+										[
+											"changeVar:by:",
+											"turnSuccessCount",
+											[
+												"getParam",
+												"value",
+												"r"
+											]
+										]
+									],
+									[
+										[
+											"doIfElse",
+											[
+												"=",
+												[
+													"readVariable",
+													"Action"
+												],
+												"jump"
+											],
+											[
+												[
+													"changeVar:by:",
+													"jumpSuccessCount",
+													[
+														"getParam",
+														"value",
+														"r"
+													]
+												]
+											],
+											[
+												[
+													"changeVar:by:",
+													"shortJumpSuccessCount",
+													[
+														"getParam",
+														"value",
+														"r"
+													]
+												]
+											]
+										]
+									]
+								]
+							]
+						],
+						[
+							"setVar:to:",
+							"Action",
+							"nothing"
+						],
+						[
+							"call",
+							"Calculate Weights"
+						]
+					]
+				]
+			],
+			"scriptComments": [
+				[
+					176,
+					338,
+					100,
+					43,
+					false,
+					14,
+					"gravity\r"
+				]
+			],
+			"sounds": [
+				{
+					"soundName": "meow",
+					"soundID": -1,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				},
+				{
+					"soundName": "Pop",
+					"soundID": -1,
+					"md5": "eeb70bbfead17ffe2f8ca19b7ac18495.wav",
+					"sampleCount": 520,
+					"rate": 22050,
+					"format": "adpcm"
+				}
+			],
+			"costumes": [
+				{
+					"costumeName": "costume1",
+					"baseLayerID": -1,
+					"baseLayerMD5": "c336023ac08bb47c55c18cd251cd85b1.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 94,
+					"rotationCenterY": 102
+				}
+			],
+			"currentCostumeIndex": 0,
+			"scratchX": -196,
+			"scratchY": -27,
+			"scale": 0.5,
+			"direction": -90,
+			"rotationStyle": "leftRight",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {}
+		},
+		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "IQ",
+			"color": 15629590,
+			"label": "IQ",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 4,
+			"y": 243,
+			"visible": true
+		},
+		{
+			"target": "IQ Graph",
+			"cmd": "xpos",
+			"param": null,
+			"color": 4877524,
+			"label": "IQ Graph: x position",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 5,
+			"y": 69,
+			"visible": false
+		},
+		{
+			"target": "IQ Graph",
+			"cmd": "ypos",
+			"param": null,
+			"color": 4877524,
+			"label": "IQ Graph: y position",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 8,
+			"y": 63,
+			"visible": false
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "Success?",
+			"color": 15629590,
+			"label": "Blue Cat: Success?",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 5,
+			"y": 96,
+			"visible": false
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "velY",
+			"color": 15629590,
+			"label": "Blue Cat: velY",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 5,
+			"y": 123,
+			"visible": false
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "Random",
+			"color": 15629590,
+			"label": "Blue Cat: Random",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 5,
+			"y": 177,
+			"visible": false
+		},
+		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "SURVIVALS",
+			"color": 15629590,
+			"label": "SURVIVALS",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 3,
+			"y": 3,
+			"visible": true
+		},
+		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "DEATHS",
+			"color": 15629590,
+			"label": "DEATHS",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 3,
+			"y": 28,
+			"visible": true
+		},
+		{
+			"target": "Stage",
+			"cmd": "timer",
+			"param": null,
+			"color": -16476964,
+			"label": "timer",
+			"mode": 2,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": false,
+			"x": 108,
+			"y": 26,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "shortJumpSuccessCount",
+			"color": 15629590,
+			"label": "Blue Cat: shortJumpSuccessCount",
+			"mode": 2,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 425,
+			"y": 331,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "jumpSuccessCount",
+			"color": 15629590,
+			"label": "Blue Cat: jumpSuccessCount",
+			"mode": 2,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 425,
+			"y": 308,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "jumpWeight",
+			"color": 15629590,
+			"label": "Blue Cat: jumpWeight",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": false,
+			"x": 233,
+			"y": 310,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "shortJumpWeight",
+			"color": 15629590,
+			"label": "Blue Cat: shortJumpWeight",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 200,
+			"y": 333,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "turnWeight",
+			"color": 15629590,
+			"label": "Blue Cat: turnWeight",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": false,
+			"x": 238,
+			"y": 287,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "turnSuccessCount",
+			"color": 15629590,
+			"label": "Blue Cat: turnSuccessCount",
+			"mode": 2,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 425,
+			"y": 285,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "walkSuccessCount",
+			"color": 15629590,
+			"label": "Blue Cat: walkSuccessCount",
+			"mode": 2,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 425,
+			"y": 262,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "walkWeight",
+			"color": 15629590,
+			"label": "Blue Cat: walkWeight",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 235,
+			"y": 264,
+			"visible": true
+		},
+		{
+			"target": "Blue Cat",
+			"cmd": "getVar:",
+			"param": "Action",
+			"color": 15629590,
+			"label": "Blue Cat: Action",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 328,
+			"y": 239,
+			"visible": true
+		},
+		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "Reward",
+			"color": 15629590,
+			"label": "Reward",
+			"mode": 3,
+			"sliderMin": 1,
+			"sliderMax": 3,
+			"isDiscrete": false,
+			"x": 373,
+			"y": 4,
+			"visible": true
+		},
+		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "Penalty",
+			"color": 15629590,
+			"label": "Penalty",
+			"mode": 3,
+			"sliderMin": -1,
+			"sliderMax": 0,
+			"isDiscrete": false,
+			"x": 375,
+			"y": 38,
+			"visible": true
+		}
+	],
+	"info": {
+		"author": "kanoa",
+		"userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0",
+		"scratch-version": "1.4 of 30-Jun-09",
+		"projectID": "124636317",
+		"scriptCount": 8,
+		"comment": "Each cat can perfom 4 actions: walk, jump, short jump, and turn around.\r\rEvery time they touch a yellow circle they must pick one of those actions.\r\rIf the cat touches the red pit, it resets.\rIf it survives (touches the wall), it learns to prefer that action a little more.\r\rSee what happens!\r\rThe numbers shown are for the blue cat.\r\r--\r\rDownload and reattach the file in the Background for further explanation.",
+		"history": "2009-11-17 18:05:08\tsave\tLearningAI\t\t\r2009-11-17 18:16:17\tsave\tLearningAI\t\t\r2009-11-17 18:34:43\tsave\tLearningAI\t\t\r2009-11-17 18:37:19\tsave\tLearningAI2\t\t\r2009-11-17 19:12:03\tsave\tLearningAI2\t\t\r2009-11-18 12:20:00\tsave\tLearningAI2\t\t\r2009-11-18 13:40:46\tsave\tLearningAI2\t\t\r2009-11-18 13:46:52\tsave\tLearningAI2\t\t\r2009-11-18 13:47:06\tsave\tLearningAI2\t\t\r2009-11-20 11:36:31\tsave\tLearningAI2\t\t\r2009-11-20 12:25:19\tsave\tLearningAI2\t\t\r2009-11-20 17:42:12\tshare\tLearning AI\tkanoa\t\r2009-11-20 17:45:38\tshare\tLearning AI\tkanoa\t\r",
+		"flashVersion": "WIN 23,0,0,162",
+		"platform": "Mac OS",
+		"os-version": "1058",
+		"spriteCount": 2,
+		"swfVersion": "v450.1",
+		"language": "en",
+		"videoOn": false,
+		"hasCloudData": false
+	}
+}
