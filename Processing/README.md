@@ -1,4 +1,8 @@
-﻿# How to Use
+﻿# Development
+
+This version of the Scrape tool is built in [Processing](http://processing.org), a Java IDE for artists.
+
+# How to Use
 
 To get your OWN Scratch text files analyzed...
 
