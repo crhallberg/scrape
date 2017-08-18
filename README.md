@@ -13,3 +13,7 @@ The original project was created in [Processing](http://processing.org), an exte
 Since then, Scratch has moved from an offline program with an online community to a fully online experience. Having stopped development in 2011, the change left the Scrape tools and its own community, Happy Analyzing, behind in obsoletion.
 
 The project was open-sourced on November 15th, 2016.
+
+## Branches
+
+`web` - an experimental web interface for analyzing Scratch 2.x projects. They can be added via .sb2 or by URL.
