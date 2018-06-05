@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- vendor -->
+    <script src="./vendor/zip/zip.js"></script>
+    <script src="./vendor/zip/zip-ext.js"></script>
+    <!-- logic -->
+    <script src="./files.js"></script>
+    <script src="./blocks.js"></script>
+    <script src="./analyze.js"></script>
+    <!-- page control -->
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <label>
+      Scratch Project URL:
+      <input type="text" id="url" value="https://scratch.mit.edu/projects/124636317/#editor" size="100"/>
+    </label>
+    <button onClick="addProjectByUrl()">Add Project</button>
+    |
+    <input type="file" id="file-input" onChange="fileInputChange(this)" />
+    <hr/>
+    <nav id="buttons"></nav>
+    <div id="list"></div>
+  </body>
+  <script>
+    addButtons();
+    // addProjectByUrl();
+  </script>
+</html>

@@ -1,0 +1,106 @@
+:root {
+  --motion: #4a6cd4;
+  --looks: #8a55d7;
+  --sound: #bb42c3;
+  --pen: #0e9a6c;
+  --vars: #ee7d16;
+  --lists: #cc5b22;
+  --events: #c88330;
+  --control: #e1a91a;
+  --sensing: #2ca5e2;
+  --operators: #5cb712;
+  --custom: #632d99;
+  --clear: rgba(255, 255, 255, 0);
+  --halfwhite: rgba(255, 255, 255, 0.6);
+}
+html { font-size: 16px; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.project h2 { margin-bottom: 0; }
+.project .bar {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  width: 100%;
+  height: 100px;
+  margin: 0 0 1rem;
+  overflow: hidden;
+}
+.section {
+  position: relative;
+  float: right;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  border: 0 solid #000;
+  overflow: hidden;
+  background: repeating-linear-gradient(-45deg, var(--halfwhite), var(--halfwhite) 4px, var(--clear) 4px, var(--clear) 8px);
+  background-color: #aaa;
+  border-color: #aaa;
+}
+.motion {
+  background-color: var(--motion);
+  border-color: var(--motion);
+  color: #fff;
+}
+.looks {
+  background-color: var(--looks);
+  border-color: var(--looks);
+  color: #fff;
+}
+.sound {
+  background-color: var(--sound);
+  border-color: var(--sound);
+  color: #fff;
+}
+.pen {
+  background-color: var(--pen);
+  border-color: var(--pen);
+  color: #fff;
+}
+.vars {
+  background-color: var(--vars);
+  border-color: var(--vars);
+  color: #fff;
+}
+.lists {
+  background-color: var(--lists);
+  border-color: var(--lists);
+  color: #fff;
+}
+.events {
+  background-color: var(--events);
+  border-color: var(--events);
+  color: #fff;
+}
+.control {
+  background-color: var(--control);
+  border-color: var(--control);
+  color: #fff;
+}
+.sensing {
+  background-color: var(--sensing);
+  border-color: var(--sensing);
+  color: #fff;
+}
+.operators {
+  background-color: var(--operators);
+  border-color: var(--operators);
+  color: #fff;
+}
+.custom {
+  background-color: var(--custom);
+  border-color: var(--custom);
+  color: #fff;
+}
+.sort-btn {
+  margin: 1px;
+  padding: .25rem .5rem;
+  border-width: 2px;
+  border-style: solid;
+  box-shadow: inset 0 1px 0 var(--halfwhite),
+              inset 1px 0 0 var(--halfwhite),
+              inset 0 -1px 0 var(--halfwhite),
+              inset -1px 0 0 var(--halfwhite);
+  cursor: pointer;
+}
